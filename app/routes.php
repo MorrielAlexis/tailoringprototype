@@ -15,3 +15,10 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::get('/', function()
+{
+	return View::make('master');
+});
+
+Route::get('/order', 'OrderController@order');
