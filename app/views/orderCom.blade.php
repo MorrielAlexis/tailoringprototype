@@ -24,7 +24,7 @@
         <li><a href="sass.html">Home</a></li>
         <li><a href="badges.html">Men Suiting</a></li>
         <li><a href="collapsible.html">Women Suiting</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdownCus">Order Now<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="dropdownCus">Order Now<i class="material-icons right">arrow_drop_down</i></a></li>
         <li><a href="collapsible.html">How it Works</a></li>
         <li><a href="collapsible.html">Order Tracking</a></li>
         <li><a href="collapsible.html">About Us</a></li>
@@ -46,7 +46,7 @@
                 <div class = "card-content">
 
                   <div class="row">
-                    <form class="col s12">
+                    <form class="col s12 m12 l12">
                       <h5>Company Information</h5>
                       <div class="row">
 
@@ -106,7 +106,7 @@
                 <div class = "card-content">
 
                   <div class = "row">
-                    <div class = "col s12">
+                    <div class = "col s12 m12 l12">
 
                       <div class="input-field col s4">
                         <select>
@@ -117,6 +117,17 @@
                         </select>
                         <label>Garment Type</label>
                       </div>
+
+                      <div class="input-field col s4">
+                        <select>
+                          <option value="" disabled selected>Choose your Garment Segment</option>
+                          <option value="1">Coat</option>
+                          <option value="2">Long Sleeve</option>
+                          <option value="3">Pants</option>
+                        </select>
+                        <label>Garment Segment Type</label>
+                      </div>
+
 
                     </div>
                 </div>
@@ -142,6 +153,8 @@
   });
          
  </script>
+
+
 
 
 </body>
