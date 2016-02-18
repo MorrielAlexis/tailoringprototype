@@ -21,4 +21,6 @@ Route::get('/', function()
 	return View::make('master');
 });
 
-Route::get('/order', 'OrderController@order');
+Route::get('/orderIndi', 'OrderIndiController@order');
+
+Route::get('/orderCom', 'OrderComController@order');

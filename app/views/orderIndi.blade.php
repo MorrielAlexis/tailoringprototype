@@ -13,8 +13,8 @@
 <body>
 
   <ul id="dropdownCus" class="dropdown-content">
-    <li><a href="order">Individual</a></li>
-    <li><a href="#!">Company</a></li>
+    <li><a href="/orderIndi">Individual</a></li>
+    <li><a href="/orderCom">Company</a></li>
   </ul>
 
   <nav>
@@ -41,7 +41,7 @@
           <div class = "row">
             <div class = "col s12 m12 l12">
               <div class = "card-panel">
-                <span class = "card title"><h4><center>Customer Profile</center></h4></span>
+                <span class = "card title"><h4><center>Individual Customer Profile</center></h4></span>
                 <div class= "divider"></div>
                 <div class = "card-content">
 
@@ -51,18 +51,18 @@
                       <div class="row">
 
                         <div class="input-field col s4">
-                          <input id="first_name" type="text" class="validate">
-                          <label for="first_name">*First Name</label>
+                          <input id="fname" type="text" class="validate">
+                          <label for="fname">*First Name</label>
                         </div>
 
                         <div class="input-field col s4">
-                          <input id="middle_name" type="text" class="validate">
-                          <label for="middle_name">Middle Name</label>
+                          <input id="mname" type="text" class="validate">
+                          <label for="mname">Middle Name</label>
                         </div>
 
                         <div class="input-field col s4">
-                          <input id="last_name" type="text" class="validate">
-                          <label for="last_name">*Last Name</label>
+                          <input id="lname" type="text" class="validate">
+                          <label for="lname">*Last Name</label>
                         </div>
                       </div>
 

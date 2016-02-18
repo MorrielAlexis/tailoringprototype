@@ -13,8 +13,8 @@
 	<body>
 
 		<ul id="dropdownCus" class="dropdown-content">
-  			<li><a href="/order">Individual</a></li>
-  			<li><a href="#!">Company</a></li>
+  			<li><a href="/orderIndi">Individual</a></li>
+  			<li><a href="/orderCom">Company</a></li>
 		</ul>
 		<nav>
     		<div class="nav-wrapper">
