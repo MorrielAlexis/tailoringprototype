@@ -11,10 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
 
 Route::get('/', function()
 {
@@ -24,3 +20,5 @@ Route::get('/', function()
 Route::get('/orderIndi', 'OrderIndiController@order');
 
 Route::get('/orderCom', 'OrderComController@order');
+
+Route::get('/home', 'HomeController@home');

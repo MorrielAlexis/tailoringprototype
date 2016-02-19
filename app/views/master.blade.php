@@ -20,7 +20,7 @@
     		<div class="nav-wrapper">
       			<a href="#" class="brand-logo">Logo</a>
       			<ul id="nav-mobile" class="right hide-on-med-and-down">
-        			<li><a href="sass.html">Home</a></li>
+        			<li><a href="/home">Home</a></li>
         			<li><a href="badges.html">Men Suiting</a></li>
         			<li><a href="collapsible.html">Women Suiting</a></li>
         			<li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdownCus">Order Now<i class="material-icons right">arrow_drop_down</i></a></li>
