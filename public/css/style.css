@@ -1,0 +1,29 @@
+      body{
+        font-family: Verdana;
+        background-color: white;
+        color: teal;
+      }
+      
+      #head1{
+        background-color: transparent;
+        padding-left: 250px;
+        padding-right: 200px;
+      }
+
+      #head2{
+        background: transparent;
+        padding-left: 250px;
+        padding-right: 200px;
+      }
+
+      #options li :hover{
+          background: lavender;
+          font-size: 17px;
+          color: lightpink;
+      }
+      #options li :active{
+          background: lavender;
+          font-size: 20px;
+          color: lightpink;
+      }
+ 
