@@ -11,7 +11,14 @@
 |
 */
 
+
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('master');
 });
+
+Route::get('/orderIndi', 'OrderIndiController@order');
+
+Route::get('/orderCom', 'OrderComController@order');
+
+Route::get('/home', 'HomeController@home');
