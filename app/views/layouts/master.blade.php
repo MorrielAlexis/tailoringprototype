@@ -12,58 +12,48 @@
 
       <style>
 
-      body{
-        background-color: lavender;
-        font-family: cursive;
-      }
-      nav{
-        background-color: transparent;
-      }
-
       
-
       </style>
     </head>
 
     <body>
-    
 
-
-
-      <div style="height:46px;" class="navbar">
-        <nav style="height:45px;">
-          <div class="nav-wrapper transparent">
-            <a href="#!" class="brand-logo">LOGO</a>
-            <ul class="right hide-on-med-and-down">
-              <li><a style="color: black" href="#!"><b>Log in</b></a></li>
-              <li><a style="color: black" href="#!"><b>Sign Up</b></a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <div class="navbar main-header">
-        <nav>
-          <div class="nav-wrapper transparent">
-            <ul class="right hide-on-med-and-down">
-              <li><a class="huehue" style="color: black" href="#!"><b>HOME</b></a></li>
+      <nav>
+        <div class="navbar">
+          <nav style="height:30px">
+            <div class="nav-wrapper">
+              <a style="margin-left:20px" href="#!" class="brand-logo">LOGO</a>
+              <ul class="right hide-on-med-and-down">
+                <li><div class="chip"><a style="color: black" href="#!"><b>Log in</b></a></div></li>
+                <li><div class="chip"><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="navbar">
+          <nav>
+            <div class="nav-wrapper">
+              <ul class="right">
+              <li><a class="huehue btn" style="color: black" href="#!"><b>HOME</b></a></li>
+              <div class="verticalLine"></div>
               <li>
-                <a style="color: black" class="dropdown-button" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <a style="color: black" class="dropdown-button btn" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="#!">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-              <li><a style="color: black" href="#!"><b>ORDER NOW</b></a></li>
-              <li><a style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
-              <li><a style="color: black" href="#!"><b>ABOUT US</b></a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+              <li><a class="btn" style="color: black" href="#!"><b>ORDER NOW</b></a></li>
+              <li><a class="btn" style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
+              <li><a class="btn" style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn" style="color: black" href="#!"><b>ABOUT US</b></a></li>
+            </div>
+          </nav>
+        </div>
+      </nav>
 
+      
 
 
 
