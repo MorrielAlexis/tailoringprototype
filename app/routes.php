@@ -12,13 +12,10 @@
 */
 
 
-Route::get('/', function()
-{
-	return View::make('master');
-});
+Route::get('/', 'HomeController@showWelcome');
 
 Route::get('/orderIndi', 'OrderIndiController@order');
 
 Route::get('/orderCom', 'OrderComController@order');
 
-Route::get('/home', 'HomeController@home');
+Route::get('/homepage', 'HomeController@home');

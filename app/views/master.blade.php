@@ -4,7 +4,7 @@
 		<title>Tailoring</title>
 
 		{{ HTML::style('css/materialize.min.css') }}
-      	{{ HTML::style('css/style.css') }}
+    {{ HTML::style('css/style.css') }}
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -12,25 +12,8 @@
 
 	<body>
 
-		<ul id="dropdownCus" class="dropdown-content">
-  			<li><a href="/orderIndi">Individual</a></li>
-  			<li><a href="/orderCom">Company</a></li>
-		</ul>
-		<nav>
-    		<div class="nav-wrapper">
-      			<a href="#" class="brand-logo">Logo</a>
-      			<ul id="nav-mobile" class="right hide-on-med-and-down">
-        			<li><a href="/home">Home</a></li>
-        			<li><a href="badges.html">Men Suiting</a></li>
-        			<li><a href="collapsible.html">Women Suiting</a></li>
-        			<li><a class="dropdown-button" href="#!" data-beloworigin="true" data-activates="dropdownCus">Order Now<i class="material-icons right">arrow_drop_down</i></a></li>
-        			<li><a href="collapsible.html">How it Works</a></li>
-        			<li><a href="collapsible.html">Order Tracking</a></li>
-        			<li><a href="collapsible.html">About Us</a></li>
-      			</ul>
-    		</div>
-  		</nav>
-	</body>
+	
+
 
 	<script>
 
@@ -47,6 +30,6 @@
 	</script>
 
 	{{ HTML::script('js/jquery-2.1.4.min.js') }}
- {{ HTML::script('js/materialize.min.js') }}
-        
+  {{ HTML::script('js/materialize.min.js') }}
+  </body>        
 </html>
