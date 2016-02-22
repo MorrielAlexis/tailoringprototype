@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+
 @section('content')
 	<div class = "section-white">
 		<div align = "center">

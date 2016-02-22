@@ -3,7 +3,7 @@
 @section('content')
 
 		
-	<div style="margin-top:40px" class="slider transparent">
+	<div class="slider">
         <ul class="slides">
             <li>
                 <img src="imgHomepageSlider/hmpgslider1.jpg">
