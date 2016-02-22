@@ -19,3 +19,5 @@ Route::get('/homepage', 'HomeController@home');
 Route::get('/ordernow', 'OrderNowController@order');
 
 Route::get('/howitworks', 'HowItWorksController@how');
+
+Route::get('/measuringTutorial', 'MeasuringTutorialController@measure');

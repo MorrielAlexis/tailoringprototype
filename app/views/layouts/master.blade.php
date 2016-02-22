@@ -46,8 +46,7 @@
 
         <div class="navbar teal">
           <nav>
-<<<<<<< HEAD
-            <div style="border-bottom:1px solid grey" class="nav-wrapper">
+              <div style="border-bottom:1px solid grey" class="nav-wrapper">
               <ul class="right">
               <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
@@ -64,25 +63,6 @@
               <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
-=======
-              <div class="nav-wrapper">
-                <ul class="right">
-                  <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
-                  <li>
-                    <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
-                    <ul id="downdown" class="dropdown-content">
-                      <li><a href="#!">UNIFORMS</a></li>
-                      <li><a href="#!">GOWNS</a></li>
-                      <li><a href="#!">SUITS</a></li>
-                    </ul>
-                  </li>
-                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
-                  </ul>
-              </div>
->>>>>>> 78dfac1f8b1703d84efb5fec9c3fa6a6a2028a2d
           </nav>
         </div>
       </nav>
@@ -223,7 +203,7 @@
 
 
       <main>
-        <div style="height:30px;"></div>
+        <div style="height:40px;"></div>
         @yield('content')
 
         <footer>
