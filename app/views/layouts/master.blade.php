@@ -23,7 +23,7 @@
         <div class="navbar">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:20px; margin-top:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
+              <a style="margin-left:20px; margin-top:10px; padding-left:10px; padding-right:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><div><a style="color: black" href="#!"><b>Log in</b></a></div></li>
                 <li><div><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
@@ -33,7 +33,7 @@
         </div>
         <div class="navbar">
           <nav>
-            <div class="nav-wrapper">
+            <div style="border-bottom:1px solid grey" class="nav-wrapper">
               <ul class="right">
               <li><a class="btn-flat" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
