@@ -11,7 +11,6 @@
       {{ HTML::style('css/style.css') }}
 
       <style>
-      <!--MASTER_BLADE-->
         body{
           background-color: pink;
           font-family: cursive;
