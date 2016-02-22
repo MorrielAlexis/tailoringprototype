@@ -23,7 +23,7 @@
         <div class="navbar">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:20px; margin-top:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
+              <a style="margin-left:20px; margin-top:10px; padding-left:10px; padding-right:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
                 <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignUp"><b>Sign Up</b></a></li>
@@ -33,7 +33,7 @@
         </div>
         <div class="navbar">
           <nav>
-            <div class="nav-wrapper">
+            <div style="border-bottom:1px solid grey" class="nav-wrapper">
               <ul class="right">
               <li><a class="btn-flat" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
