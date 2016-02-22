@@ -11,8 +11,20 @@
       {{ HTML::style('css/style.css') }}
 
       <style>
-
-      
+      <!--MASTER_BLADE-->
+        body{
+          background-color: pink;
+          font-family: cursive;
+        }
+        nav{
+          background-color: transparent;
+          box-shadow: 0px 0px;
+          padding: 0;
+        }
+        .btn{
+          background: #cccccc;
+          padding: 0;
+        }
       </style>
     </head>
 
@@ -23,7 +35,7 @@
         <div class="navbar">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:20px; margin-top:10px; padding-left:10px; padding-right:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
+              <a style="margin-left:30px; margin-top:10px; padding-left:10px; padding-right:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
                 <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignUp"><b>Sign Up</b></a></li>
@@ -35,19 +47,19 @@
           <nav>
             <div style="border-bottom:1px solid grey" class="nav-wrapper">
               <ul class="right">
-              <li><a class="btn-flat" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
-                <a class="btn-flat" style="padding:0; color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="#!">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
           </nav>
@@ -137,7 +149,7 @@
           hover: true, // Activate on hover
           gutter: 0, // Spacing from edge
           belowOrigin: false, // Displays dropdown below the button
-          alignment: 'bottom' // Displays dropdown with edge aligned to the left of button
+          alignment: 'right' // Displays dropdown with edge aligned to the left of button
         });
       });
           
