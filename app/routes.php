@@ -18,6 +18,14 @@ Route::get('/homepage', 'HomeController@home');
 
 Route::get('/ordernow', 'OrderNowController@order');
 
+<<<<<<< HEAD
 Route::get('/howitworks', 'HowItWorksController@how');
 
 Route::get('/measuringTutorial', 'MeasuringTutorialController@measure');
+=======
+Route::get('/orderTracking', 'OrderTrackingController@order');
+
+Route::get('/howitworks', 'HowItWorksController@how');
+
+Route::get('/garmentUniform', 'GarmentUniformController@uniform');
+>>>>>>> e399cb9bcf655e5c98105ca713b74b8f93ad9930
