@@ -1,6 +1,6 @@
 <!--MASTER_BLADE-->
 body{
-  background-image: url('img/background.jpg');
+  background-color: lavender;
   background-position: center;
   font-family: cursive;
 }
@@ -32,3 +32,10 @@ img{
 }
 
 
+<!--ORDER NOW-->
+.beauty-heading{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

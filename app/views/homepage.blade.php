@@ -3,7 +3,7 @@
 @section('content')
 
 		
-	<div style="margin-top:30px" class="slider transparent">
+	<div style="margin-top:40px" class="slider transparent">
         <ul class="slides">
             <li>
                 <img src="imgHomepageSlider/hmpgslider1.jpg">
@@ -25,7 +25,11 @@
             <div class="row">
                 <div class="col s6">   
                     <div class="container">
+
                         <a href=""><img class="responsive-img" width = "90%" src="img/uniform3.jpg"></a>
+
+                        <a href="#"><img class="hoverable" width = "90%" src="img/suit.jpg"></a>
+
                         <p class="center-align">
                             <h4>Uniforms</h4>
                             From different designs and options to choose from,<br>
@@ -37,7 +41,11 @@
                 <div class="verticalLine"></div>
                 <div class="col s6">
                     <div class="container">
+
                         <img class="responsive-img" width = "80%" src="img/gowns.jpg">
+
+                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
                         <p class="center-align">
                             <h4>Gowns</h4>
                             Be the eye-catcher in special occasions with custom<br>
@@ -54,7 +62,11 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
+
                         <img class="hoverable" width = "90%" src="img/suits.jpg">
+
+                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
                         <p class="center-align">
                             <h4>Suits</h4>
                             Always look the best in a custom suit that<br>
@@ -81,7 +93,11 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
+
                         <img class="hoverable" width = "90%" src="img/ordertrack1.jpg">
+
+                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
                         <p class="center-align">
                             <h4>Order Tracking</h4>
                             Experience made more personal with Order Tracking.<br>
@@ -91,7 +107,11 @@
                 </div>
                 <div class="col s6">
                     <div class="container">
+
                         <img class="hoverable" width = "90%" src="img/howitwork.jpg">
+
+                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
                         <p class="center-align">
                             <h4>How It Works</h4>
                             Easy steps to follow for a perfect fit.<br>
@@ -105,31 +125,7 @@
         </div>
 
 
-      <footer style="background-color:#cccccc" class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2016 Copyright Chubaness.
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+      
     @stop
 
 @section('scripts')	 
