@@ -14,8 +14,6 @@
 
 Route::get('/', 'HomeController@showWelcome');
 
-Route::get('/orderIndi', 'OrderIndiController@order');
-
-Route::get('/orderCom', 'OrderComController@order');
-
 Route::get('/homepage', 'HomeController@home');
+
+Route::get('/ordernow', 'OrderNowController@order');
