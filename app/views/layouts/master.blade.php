@@ -53,11 +53,7 @@
               <ul class="right">
               <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
-<<<<<<< HEAD
                 <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
-=======
-                <a style="color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
->>>>>>> 497a16176bd680f65f508cd37d7541774e1c417d
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="#!">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
