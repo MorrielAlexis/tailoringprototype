@@ -28,3 +28,14 @@ Route::get('/howitworks', 'HowItWorksController@how');
 
 Route::get('/garmentUniform', 'GarmentUniformController@uniform');
 
+Route::get('/menShirtTutorial', 'MenShirtTutorialController@menShirt');
+
+Route::get('/menPantsTutorial', 'MenPantsTutorialController@menPants');
+
+Route::get('/menFullProfileTutorial', 'MenFullProfileTutorialController@menFullProfile');
+
+Route::get('/womenShirtTutorial', 'WomenShirtTutorialController@womenShirt');
+
+Route::get('/womenPantsAndSkirtTutorial', 'WomenPantsAndSkirtTutorialController@womenPantsAndSkirt');
+
+Route::get('/womenFullProfileTutorial', 'WomenFullProfileTutorialController@womenFullProfile');

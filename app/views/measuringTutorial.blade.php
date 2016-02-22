@@ -4,7 +4,7 @@
 
 	<div class="section white">	
 		<div align = "center">
-			<div style= "height:5px;"></div>
+			<!--<div style= "height:5px;"></div>-->
 				<a href=""><img class="responsive-img" height = "90%" width = "100%" src="img/measure.jpg"></a>
 					<h1 style="color:#00695c;">Start Measuring Yourself</h1>
 					<h5 style="color:#00695c;">Get accurate measurements even with no professional experience in tailoring</h5>
@@ -28,7 +28,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/menShirtTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -47,7 +47,7 @@
            					</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/menPantsTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -66,7 +66,7 @@
            					</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/menFullProfileTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -92,7 +92,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/womenShirtTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -111,7 +111,7 @@
              				</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/womenPantsAndSkirtTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -130,7 +130,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="#">Proceed to tutorial</a>
+              			<a href="/womenFullProfileTutorial">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
