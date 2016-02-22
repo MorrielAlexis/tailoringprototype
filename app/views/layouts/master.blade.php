@@ -11,12 +11,15 @@
       {{ HTML::style('css/style.css') }}
 
       <style>
-
+        body
+        {
+          background-color: "teal"
+        }
       
       </style>
     </head>
 
-    <body>
+    <body background-color="teal">
 
       <nav>
         <div class="navbar">
@@ -33,7 +36,7 @@
         <div class="navbar">
           <nav>
             <div class="nav-wrapper">
-              <ul class="right">
+              <ul class="left">
               <li><a class="btn-flat" style="color: black" href="#!"><b>HOME</b></a></li>
               <div class="verticalLine"></div>
               <li>
@@ -48,6 +51,7 @@
               <li><a class="btn-flat" style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
               <li><a class="btn-flat" style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
               <li><a class="btn-flat" style="color: black" href="#!"><b>ABOUT US</b></a></li>
+               </ul>
             </div>
           </nav>
         </div>
