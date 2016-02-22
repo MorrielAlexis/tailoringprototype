@@ -46,7 +46,7 @@
               </li>
               <li><a class="btn-flat" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
               <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn-flat" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
               <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>

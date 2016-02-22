@@ -17,3 +17,5 @@ Route::get('/', 'HomeController@showWelcome');
 Route::get('/homepage', 'HomeController@home');
 
 Route::get('/ordernow', 'OrderNowController@order');
+
+Route::get('/howitworks', 'HowItWorksController@how');
