@@ -24,7 +24,7 @@
             <div class="row">
                 <div class="col s6">   
                     <div class="container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <a href="#"><img class="hoverable" style = "height:250px"src="img/suit.jpg"></a>
                         <p class="center-align">
                             <h4>Uniforms</h4>
                             Take it slow, but it's not typical<br>
@@ -37,7 +37,7 @@
                 <div class="verticalLine"></div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <img class="hoverable" style = "height:250px" src="img/suit.jpg">
                         <p class="center-align">
                             <h4>Gowns</h4>
                             Take it slow, but it's not typical<br>
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <img class="hoverable" style = "height:250px" src="img/suit.jpg">
                         <p class="center-align">
                             <h4>Suits</h4>
                             Take it slow, but it's not typical<br>
@@ -66,7 +66,7 @@
                 </div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <img class="hoverable" style = "height:250px" src="img/suit.jpg">
                         <p class="center-align">
                             <h4>Order Now</h4>
                             Take it slow, but it's not typical<br>
@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <img class="hoverable" style = "height:250px" src="img/suit.jpg">
                         <p class="center-align">
                             <h4>Order Tracking</h4>
                             Take it slow, but it's not typical<br>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" src="img/suit.jpg">
+                        <img class="hoverable" style = "height:250px" src="img/suit.jpg">
                         <p class="center-align">
                             <h4>How It Works</h4>
                             Take it slow, but it's not typical<br>

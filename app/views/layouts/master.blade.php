@@ -24,8 +24,8 @@
             <div class="nav-wrapper">
               <a style="margin-left:20px" href="#!" class="brand-logo">LOGO</a>
               <ul class="right hide-on-med-and-down">
-                <li><div class="chip"><a style="color: black" href="#!"><b>Log in</b></a></div></li>
-                <li><div class="chip"><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
+                <li><div class="chip-flat"><a style="color: black" href="#!"><b>Log in</b></a></div></li>
+                <li><div class="chip-flat"><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
               </ul>
             </div>
           </nav>
@@ -34,20 +34,20 @@
           <nav>
             <div class="nav-wrapper">
               <ul class="right">
-              <li><a class="huehue btn" style="color: black" href="#!"><b>HOME</b></a></li>
+              <li><a class="btn-flat" style="color: black" href="#!"><b>HOME</b></a></li>
               <div class="verticalLine"></div>
               <li>
-                <a style="color: black" class="dropdown-button btn" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <a style="color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="#!">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-              <li><a class="btn" style="color: black" href="#!"><b>ORDER NOW</b></a></li>
-              <li><a class="btn" style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn" style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn" style="color: black" href="#!"><b>ABOUT US</b></a></li>
+              <li><a class="btn-flat" style="color: black" href="#!"><b>ORDER NOW</b></a></li>
+              <li><a class="btn-flat" style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
+              <li><a class="btn-flat" style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn-flat" style="color: black" href="#!"><b>ABOUT US</b></a></li>
             </div>
           </nav>
         </div>
