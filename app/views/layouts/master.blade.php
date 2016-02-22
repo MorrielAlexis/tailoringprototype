@@ -25,8 +25,8 @@
             <div class="nav-wrapper">
               <a style="margin-left:20px; margin-top:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
-                <li><div><a style="color: black" href="#!"><b>Log in</b></a></div></li>
-                <li><div><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
+                <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
+                <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignUp"><b>Sign Up</b></a></li>
               </ul>
             </div>
           </nav>
@@ -56,6 +56,36 @@
     </header>
     
       <!--MODAL FOR LOG IN-->
+
+      <div id="modalLogin" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <h4>LogIn</h4>
+          <div class="row margin">
+                  <div class="input-field col s12">
+                    <i class="mdi-social-person-outline prefix"></i>
+                    <input class="validate" id="email" type="email">
+                    <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+                </div>
+              </div>
+
+              <div class="row margin">
+                  <div class="input-field col s12">
+                    <i class="mdi-action-lock-outline prefix"></i>
+                    <input id="password" type="password">
+                    <label for="password">Password</label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s12">
+                    <a href="/index" class="btn waves-effect waves-light col s12">Login</a>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+        </div>
+      </div>
 
       <!--MODAL FOR SIGN UP-->
       
@@ -111,6 +141,15 @@
         });
       });
           
+      </script>
+
+      <script type="text/javascript">
+
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+
       </script>
 
         @yield('scripts')
