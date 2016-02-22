@@ -60,17 +60,10 @@
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-<<<<<<< HEAD
               <li><a class="btn-flat" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
               <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
               <li><a class="btn-flat" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
               <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
-=======
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
->>>>>>> c0d449fd42d7d13cd215824142245eef1d00a150
               </ul>
             </div>
           </nav>
