@@ -2,7 +2,7 @@
 
 
 @section('content')
-	<div class = "section-white">
+	<div class = "section-white" style = "background-image : URL(img/tailormaster.jpg)" >
 		<div align = "center">
 			<div style= "height:30px;"></div>
 			<h4>Order Tracking</h4>
@@ -35,31 +35,27 @@
 
 		<div class = "container">
 			<div class = "container">
-					<div class = "row">
-						<div class = "col s12">
-							<div class = "col s3 align-center">
+				<div class = "card panel">
+					<div class = "card-content">
+					
+								
+									<label><font size = "+2" color = "black">Job Order: JOB001</font></label>
+								
+							
 
-								<div class = "input-field">
-									<input id = "trackno" value = "JOB001" name = "trackno" type = "text" readonly>
-									<label for = "trackno"> Tracking Code: </label>
-								</div>
-							</div>
+
+						<label><center><font size = "+1">Progress:</font></center> </label>
+
+						<div id="progress">
+							<span id="percent">60%</span>
+							<div id="bar"></div>
 						</div>
+					  	<label><center><font size ="+2">60% of the JOB is done</font></center></label>
 					</div>
-
-
-					<label><center>Progress:</center> </label>
-
-					  	<div id="progress">
-						    <span id="percent">60%</span>
-						    <div id="bar"></div>
-						</div>
-
-		        
 				</div>
-				  	<label><center><font size = "+2">60% of the JOB is done</center></font></label>
 			</div>
 		</div>
+	</div>
 
 	<br>
 	<br>
