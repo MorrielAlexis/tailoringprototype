@@ -21,9 +21,9 @@
     <header>
       <nav>
         <div class="navbar">
-          <nav style="height:30px">
+          <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:20px" href="#!" class="brand-logo">LOGO</a>
+              <a style="margin-left:20px; margin-top:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
                 <li><div><a style="color: black" href="#!"><b>Log in</b></a></div></li>
                 <li><div><a style="color: black" href="#!"><b>Sign Up</b></a></div></li>
@@ -34,21 +34,20 @@
         <div class="navbar">
           <nav>
             <div class="nav-wrapper">
-              <ul>
-              <li><a style="color: black" href="#!"><b>HOME</b></a></li>
-              <div class="verticalLine"></div>
+              <ul class="right">
+              <li><a class="btn-flat" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
               <li>
-                <a style="color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <a class="btn-flat" style="padding:0; color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="#!">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-              <li><a style="color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a style="color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a style="color: black" href="#!"><b>HOW IT WORKS</b></a></li>
-              <li><a style="color: black" href="#!"><b>ABOUT US</b></a></li>
+              <li><a class="btn-flat" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
+              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
+              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
           </nav>
@@ -108,7 +107,7 @@
           hover: true, // Activate on hover
           gutter: 0, // Spacing from edge
           belowOrigin: false, // Displays dropdown below the button
-          alignment: 'left' // Displays dropdown with edge aligned to the left of button
+          alignment: 'bottom' // Displays dropdown with edge aligned to the left of button
         });
       });
           

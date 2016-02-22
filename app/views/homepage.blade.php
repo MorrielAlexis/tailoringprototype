@@ -2,7 +2,7 @@
 
 @section('content')
 		
-	<div style="margin-top:30px" class="slider transparent">
+	<div style="margin-top:40px" class="slider transparent">
         <ul class="slides">
             <li>
                 <img src="http://www.emiliosasso.com/wp-content/uploads/EmilioSassoSartoria008-1600x900.jpg">
