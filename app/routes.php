@@ -22,3 +22,4 @@ Route::get('/orderTracking', 'OrderTrackingController@order');
 
 Route::get('/howitworks', 'HowItWorksController@how');
 
+Route::get('/garmentUniform', 'GarmentUniformController@uniform');
