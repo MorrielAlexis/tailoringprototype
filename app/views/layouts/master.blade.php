@@ -46,7 +46,6 @@
 
         <div class="navbar teal">
           <nav>
-<<<<<<< HEAD
               <div class="nav-wrapper">
                 <ul class="right">
                   <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
@@ -64,34 +63,7 @@
                   <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
                   </ul>
               </div>
-            </nav>
-=======
-            <div style="border-bottom:1px solid grey" class="nav-wrapper">
-              <ul class="right">
-              <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
-              <li>
-                <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
-                <ul id="downdown" class="dropdown-content">
-                  <li><a href="#!">UNIFORMS</a></li>
-                  <li><a href="#!">GOWNS</a></li>
-                  <li><a href="#!">SUITS</a></li>
-                </ul>
-              </li>
-<<<<<<< HEAD
-              <li><a class="btn-flat" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
-=======
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
->>>>>>> 48cab41e5fcb54bd560d91629535a540f852f5e4
-              </ul>
-            </div>
           </nav>
->>>>>>> 38cf066612c4681d215ff9be17ca6ca78e2de802
         </div>
       </nav>
 
