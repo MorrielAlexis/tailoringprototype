@@ -13,10 +13,8 @@
       <style>
         body{
         
-        
         }
         nav{
-          background-color: transparent;
           box-shadow: 0px 0px;
           padding: 0;
         }
@@ -29,9 +27,8 @@
 
     <body>
 
-    <header>
       <nav>
-        <div class="navbar">
+        <div class="navbar teal">
           <nav style="height:40px">
             <div class="nav-wrapper">
               <a style="margin-left:30px; margin-top:10px; padding-left:10px; padding-right:10px; background:teal; height:40px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
@@ -46,29 +43,31 @@
             </div>
           </nav>
         </div>
-        <div class="navbar">
+
+        <div class="navbar teal">
           <nav>
-            <div style="border-bottom:1px solid grey" class="nav-wrapper">
-              <ul class="right">
-              <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
-              <li>
-                <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
-                <ul id="downdown" class="dropdown-content">
-                  <li><a href="#!">UNIFORMS</a></li>
-                  <li><a href="#!">GOWNS</a></li>
-                  <li><a href="#!">SUITS</a></li>
-                </ul>
-              </li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
-              </ul>
-            </div>
-          </nav>
+              <div class="nav-wrapper">
+                <ul class="right">
+                  <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
+                  <li>
+                    <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                    <ul id="downdown" class="dropdown-content">
+                      <li><a href="#!">UNIFORMS</a></li>
+                      <li><a href="#!">GOWNS</a></li>
+                      <li><a href="#!">SUITS</a></li>
+                    </ul>
+                  </li>
+                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
+                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ORDER TRACKING</b></a></li>
+                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+                  <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
+                  </ul>
+              </div>
+            </nav>
         </div>
       </nav>
-    </header>
+
+
     
       <!--MODAL FOR LOG IN-->
 
@@ -204,6 +203,7 @@
 
 
       <main>
+        <div style="height:30px;"></div>
         @yield('content')
 
         <footer>
