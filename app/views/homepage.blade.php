@@ -1,20 +1,21 @@
 @extends('layouts.master')
 
 @section('content')
+
 		
 	<div style="margin-top:40px" class="slider transparent">
         <ul class="slides">
             <li>
-                <img src="http://www.emiliosasso.com/wp-content/uploads/EmilioSassoSartoria008-1600x900.jpg">
+                <img src="imgHomepageSlider/hmpgslider1.jpg">
             </li>
             <li>
-                <img src="http://jinkaminka.com/images/tailor.jpg">
+                <img src="imgHomepageSlider/hmpgslider2.jpg">
             </li>
             <li>
-                <img src="http://www.culturaitaliana.eu/wp-content/uploads/2014/06/sartoria-629x300.jpg">
+                <img src="imgHomepageSlider/hmpgslider3.jpg">
             </li>
             <li>
-                <img src="http://static3.fashionbeans.com/wp-content/uploads/2013/07/diytailoring.jpg">
+                <img src="imgHomepageSlider/hmpgslider4.jpg">
             </li>
         </ul>
     </div>
@@ -24,26 +25,29 @@
             <div class="row">
                 <div class="col s6">   
                     <div class="container">
-                        <a href="#"><img class="hoverable" width = "90%" src="img/suit.jpg"></a>
+
+                        <a href=""><img class="responsive-img" width = "90%" src="img/uniform3.jpg"></a>
+
                         <p class="center-align">
                             <h4>Uniforms</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            From different designs and options to choose from,<br>
+                            personalize uniforms for an exclusive style and<br>
+                            distinction.
                         </p>
                     </div>
                 </div>
                 <div class="verticalLine"></div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
+                        <a href=""><img class="responsive-img" width = "80%" src="img/gowns.jpg"></a>
+
                         <p class="center-align">
                             <h4>Gowns</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            Be the eye-catcher in special occasions with custom<br>
+                            designed gowns and dresses. Choose from a variety<br>
+                            of fabrics, colors and designs for a truly unique<br>
+                            style!
                         </p>
                     </div>
                 </div>
@@ -54,25 +58,25 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
-                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
+                        <a href=""><img class="hoverable" width = "90%" src="img/suits.jpg"></a>
+
                         <p class="center-align">
                             <h4>Suits</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            Always look the best in a custom suit that<br>
+                            will fit you perfectly. Our hand tailored<br>
+                            suits come in a collection of high quality<br>
+                            fabrics and materials that you can choose from.
                         </p>
                     </div>
                 </div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+                        <a href=""><img class="hoverable" width = "90%" src="img/suit.jpg"></a>
                         <p class="center-align">
                             <h4>Order Now</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            Want the best tailoring experience ever?<br>
+                            Take the chance and work with us!<br>
                         </p>
                     </div>
                 </div>
@@ -83,25 +87,25 @@
             <div class="row">
                 <div class="col s6">
                     <div class = "container">
-                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
+                        <a href=""><img class="hoverable" width = "90%" src="img/ordertrack1.jpg"></a>
+
                         <p class="center-align">
                             <h4>Order Tracking</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            Experience made more personal with Order Tracking.<br>
+                            Monitor your orders' progress here!
                         </p>
                     </div>
                 </div>
                 <div class="col s6">
                     <div class="container">
-                        <img class="hoverable" width = "90%" src="img/suit.jpg">
+
+                        <a href="/howitworks"><img class="hoverable" width = "90%" src="img/howitwork.jpg"></a>
                         <p class="center-align">
                             <h4>How It Works</h4>
-                            Take it slow, but it's not typical<br>
-                            He already knows that my love is fire<br>
-                            His heart was a stone, but then his hands roam<br>
-                            I turned him to gold and it took him higher
+                            Easy steps to follow for a perfect fit.<br>
+                            In just a couple of minutes, the measurements<br>
+                            for perfect fitting will be ready for the garments! 
                         </p>
                     </div>
                 </div>

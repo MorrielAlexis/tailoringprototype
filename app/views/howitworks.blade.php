@@ -2,7 +2,6 @@
 
 @section('content')
 
-
 	<div class="section white">	
 		<div align = "center">
 			<div style= "height:20px;"></div>
