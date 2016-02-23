@@ -33,8 +33,8 @@
             <div class="nav-wrapper">
               <a style="margin-left:30px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
-                <li><a style="padding:0; color: black" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
+                <li><a style="padding:0; color: white" class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
+                <li><a style="padding:0; color: white" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
                 <ul id="down" class="dropdown-content">
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupInd">INDIVIDUAL</a></li>
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupCom">COMPANY</a></li>
@@ -46,21 +46,22 @@
 
         <div class="navbar teal">
           <nav>
-            <div style="border-bottom:1px solid grey" class="nav-wrapper">
+              <div style="border-bottom:1px solid grey" class="nav-wrapper">
+
               <ul class="right">
-              <li><a class="btn-flat hoverable" style="padding:0; color: black;" href="/"><b>HOME</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: white;" href="/"><b>HOME</b></a></li>
               <li>
-                <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <a style="color: white" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="/garmentUniform">UNIFORMS</a></li>
                   <li><a href="#!">GOWNS</a></li>
                   <li><a href="#!">SUITS</a></li>
                 </ul>
               </li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: black" href="#!"><b>ABOUT US</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
           </nav>
