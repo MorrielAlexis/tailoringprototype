@@ -53,8 +53,8 @@
                 <a style="color: black" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="/garmentUniform">UNIFORMS</a></li>
-                  <li><a href="#!">GOWNS</a></li>
-                  <li><a href="#!">SUITS</a></li>
+                  <li><a href="/garmentGown">GOWNS</a></li>
+                  <li><a href="/garmentSuit">SUITS</a></li>
                 </ul>
               </li>
               <li><a class="btn-flat hoverable" style="padding:0; color: black" href="/ordernow"><b>ORDER NOW</b></a></li>

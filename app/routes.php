@@ -23,3 +23,7 @@ Route::get('/orderTracking', 'OrderTrackingController@order');
 Route::get('/howitworks', 'HowItWorksController@how');
 
 Route::get('/garmentUniform', 'GarmentUniformController@uniform');
+
+Route::get('/garmentGown', 'GarmentGownController@gown');
+
+Route::get('/garmentSuit', 'GarmentSuitController@suit');
