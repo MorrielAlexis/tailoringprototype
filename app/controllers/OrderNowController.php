@@ -6,4 +6,9 @@ class OrderNowController extends BaseController{
 	{
 		return View::make('ordernow');
 	}
+
+	public function out()
+	{
+		return View::make('checkout');
+	}
 }
