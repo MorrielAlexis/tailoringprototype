@@ -63,7 +63,7 @@
 
             <div>
               <p style="margin-top:20px; color:green;">Please specify measurement</p>
-              <a style="margin-left:10px" class="btn-flat modal-trigger hoverable teal white-text" href="#modal">MEASUREMENT</a>
+              <a style="margin-left:10px" class="btn-flat modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a>
             </div>
           </div>
           <div class="col s3">
@@ -117,7 +117,7 @@
 
             <div>
               <p style="margin-top:20px; color:green;">Please specify measurement</p>
-              <a style="margin-left:10px" class="btn-flat modal-trigger hoverable teal white-text" href="#!">MEASUREMENT</a>
+              <a style="margin-left:10px" class="btn-flat modal-trigger hoverable teal white-text" href="modalMeas">MEASUREMENT</a>
             </div>
           </div>
           <div class="col s3">
@@ -147,7 +147,7 @@
   </div>
 
   <!--MODAL FOR MEASUREMENT-->
-  <div id="modal" class="modal" style="width:700px">
+  <div id="modalMeas" class="modal modal-fixed-footer" style="width:700px">
     <div class="modal-content">
 
       <h3>Choose measurement</h3>
@@ -188,19 +188,15 @@
       </div>
 
     </div>
+
+    <div class="modal-footer">                  
+      <button type="button" onclick="clearData()" class=" modal-action modal-close waves-effect waves-green btn-flat">CANCEL</a>                    
+    </div>
   </div>
 
-    @stop
+@stop
 
 @section('scripts')  
 
-    <script>
-      $(document).ready(function(){
-        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-        $('.modal-trigger').leanModal();
-      });
-      $('.modal-trigger').leanModal({
-        dismissible: true, // Modal can be dismissed by clicking outside of the modal
-      });
-    </script>
+    
 @stop   
