@@ -26,7 +26,7 @@
                 <div class="col s6">   
                     <div class="container">
 
-                        <a href="/garmentUniform"><img class="responsive-img hoverable" width = "90%" src="img/uniform3.jpg"></a>
+                        <a href="/garmentUniform"><img class="responsive-img hoverable" src="img/uniform3.jpg"></a>
 
                         <p class="center-align">
                             <h4>Uniforms</h4>
@@ -40,7 +40,7 @@
                 <div class="col s6">
                     <div class="container">
 
-                        <a href="/garmentGown"><img class="responsive-img hoverable" width = "80%" src="img/gowns.jpg"></a>
+                        <a href="/garmentGown"><img class="responsive-img hoverable" src="img/gowns.jpg"></a>
 
                         <p class="center-align">
                             <h4>Gowns</h4>
@@ -59,7 +59,7 @@
                 <div class="col s6">
                     <div class = "container">
 
-                        <a href="/garmentSuit"><img class="responsive-img hoverable" width = "90%" src="img/suits.jpg"></a>
+                        <a href="/garmentSuit"><img class="responsive-img hoverable" src="img/suits.jpg"></a>
 
                         <p class="center-align">
                             <h4>Suits</h4>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col s6">
                     <div class="container">
-                        <a href="/ordernow"><img class="responsive-img hoverable" width = "90%" src="img/suit.jpg"></a>
+                        <a href="/ordernow"><img class="responsive-img hoverable" src="img/suit.jpg"></a>
                         <p class="center-align">
                             <h4>Order Now</h4>
                             Want the best tailoring experience ever?<br>
@@ -88,7 +88,7 @@
                 <div class="col s6">
                     <div class = "container">
 
-                        <a href="/orderTracking"><img class="responsive-img hoverable" width = "90%" src="img/ordertrack1.jpg"></a>
+                        <a href="/orderTracking"><img class="responsive-img hoverable" src="img/ordertrack1.jpg"></a>
 
                         <p class="center-align">
                             <h4>Order Tracking</h4>
@@ -100,7 +100,7 @@
                 <div class="col s6">
                     <div class="container">
 
-                        <a href="/howitworks"><img class="responsive-img hoverable" width = "90%" src="img/howitwork.jpg"></a>
+                        <a href="/howitworks"><img class="responsive-img hoverable" src="img/howitwork.jpg"></a>
                         <p class="center-align">
                             <h4>How It Works</h4>
                             Easy steps to follow for a perfect fit.<br>

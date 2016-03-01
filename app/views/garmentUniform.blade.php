@@ -18,7 +18,7 @@
 			    <div class="col s4">
 	                    <div class="container">
 	                       <p>
-	                        	<img width="100%" height="100%" src="imgUniform/uni1.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni1.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -30,7 +30,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	                    	<p>
-	                        	<img width="100%" height="100%"src="imgUniform/uni2.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni2.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -43,7 +43,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	      					<p>
-	                         	<img width="100%" height="100%"src="imgUniform/uni3.jpg">
+	                         	<img class = "responsive-img" src="imgUniform/uni3.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -60,7 +60,7 @@
 			    <div class="col s4">
 	                    <div class="container">
 	                       <p>
-	                        	<img width="100%" height="100%"src="imgUniform/uni4.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni4.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -73,7 +73,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	                    	<p>
-	                        	<img width="100%" height="100%"src="imgUniform/uni5.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni5.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -86,7 +86,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	      					<p>
-	                         	<img width="100%" height="100%"src="imgUniform/uni6.jpg">
+	                         	<img class = "responsive-img" src="imgUniform/uni6.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -103,7 +103,7 @@
 			    <div class="col s4">
 	                    <div class="container">
 	                       <p>
-	                        	<img width="100%" height="100%"src="imgUniform/uni7.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni7.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -116,7 +116,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	                    	<p>
-	                        	<img width="100%" height="100%"src="imgUniform/uni8.jpg">
+	                        	<img class = "responsive-img" src="imgUniform/uni8.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
@@ -129,7 +129,7 @@
 	           	  <div class="col s4">
 	                    <div class="container">
 	      					<p>
-	                         	<img width="100%" height="100%"src="imgUniform/uni9.jpg">
+	                         	<img class = "responsive-img" src="imgUniform/uni9.jpg">
                     			<div class="row" align="right" style="margin-right:30px;">
 	                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
 		       						<button class="modal-trigger waves-effect waves-light btn btn-small center-text teal-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
