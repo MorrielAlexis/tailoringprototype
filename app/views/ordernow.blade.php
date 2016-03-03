@@ -3,10 +3,8 @@
 @section('content')
 
   <div class="section white"> 
-    <div align = "center">
-      <div>
-       <h1 style="color:teal;">Order Now</h1>
-      </div>
+    <div style="height:100px; background-image:url(img/background.jpg)">
+      <center><h1 style=" margin-top: -15px;color:teal">Order Now</h1></center>
     </div>
 
     <div class="divider"></div>
@@ -133,14 +131,7 @@
     <div class="divider"></div>
     <div style= "height:20px;"></div>
 
-    <div class="row">
-      <div class="col s6">
-        <a class="btn blue" style="margin-left:20px;" href="/"><i class="small material-icons">keyboard_arrow_left</i>CONTINUE SHOPPING</a>
-      </div>
-      <div class="col s6">
-        <a class="btn right" style="margin-right:20px; background:#e53935;" href="/checkout"><i class="small material-icons">shopping_cart</i> PROCEED TO CHECKOUT</a>
-      </div>
-    </div>
+    
 
     <div class="divider"></div>
 

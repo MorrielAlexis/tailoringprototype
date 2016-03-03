@@ -3,13 +3,18 @@
 @section('content')
 
 	<div class="section white">	
-		<div align = "center">
+		<!-- <div align = "center">
 			<div style= "height:20px;"></div>
 			<div style="padding:0.5px">
 			<h1 style="color:#00695c;">How It Works</h1>
 			<h4 style="color:#00695c;">Three easy steps to make custom-fit garments</h4>
 		</div>
-		</div>
+		</div> -->
+
+    <div style="height:150px; background-image:url(img/background.jpg)">
+      <center><h1 style=" margin-top: -15px;color:teal">How It Works</h1></center>
+      <center><h4 style="color:#00695c;">Three easy steps to make custom-fit garments</h4></center>
+    </div>
 
     <div class="divider"></div>
 		<div style= "height:50px;"></div>

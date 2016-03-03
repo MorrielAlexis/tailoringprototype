@@ -3,14 +3,19 @@
 @section('content')
 
 	<div class="section white">	
-		<div align = "center">
+		<!-- <div align = "center">
 			<section="pageheader">
 				<div style="height:150px; background-image:url(img/background.jpg)">
 					<h1 style="margin-top: 100px; color:teal" class="center">SUITS</h1>
 	       			<button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
 				</div>
 			</section>
-		</div>
+		</div -->>
+
+	<div style="height:150px; background-image:url(img/background.jpg)">
+      <center><h1 style=" margin-top: -37px;color:teal">Suits</h1></center>
+      <center><button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button></center>
+    </div>
 
 
 		<div style= "height:50px;"></div>

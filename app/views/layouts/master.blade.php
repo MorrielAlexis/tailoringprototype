@@ -72,7 +72,7 @@
     
       <!--MODAL FOR LOG IN-->
 
-      <div id="modalLogin" class="modal modal-fixed-footer">
+      <div id="modalLogin" class="modal" style = "max-width:30%; max-height:70%;">
         <div class="modal-content">
           <h4>Log In</h4>
           <div class="row">

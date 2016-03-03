@@ -2,10 +2,10 @@
 
 
 @section('content')
-	<div class = "section-white" style = "background-image : URL(img/tailormaster.jpg)" >
-		<div align = "center">
-			<div style= "height:30px;"></div>
-			<h4>Order Tracking</h4>
+	<div class = "section-white">
+			
+		<div style="height:100px; background-image:url(img/background.jpg)">
+			<center><h1 style=" margin-top: 0px;color:teal">Order Tracking</h1></center>
 		</div>
 
 		<div class = "container">
