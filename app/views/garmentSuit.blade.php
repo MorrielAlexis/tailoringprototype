@@ -3,20 +3,11 @@
 @section('content')
 
 	<div class="section white">	
-		<!-- <div align = "center">
-			<section="pageheader">
-				<div style="height:150px; background-image:url(img/background.jpg)">
-					<h1 style="margin-top: 100px; color:teal" class="center">SUITS</h1>
-	       			<button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
-				</div>
-			</section>
-		</div -->>
-
-	<div style="height:150px; background-image:url(img/background.jpg)">
-      <center><h1 style=" margin-top: -37px;color:teal">Suits</h1></center>
-      <center><button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button></center>
-    </div>
-
+		<div id="suitheader" style="height:400px; margin-top: -15px;">
+	  		<div style="height:70px"></div>
+	  		<center><h1 style="color:white; font-family:'Playfair Display','Times';">Custom tailored suits</h1></center>
+	  		<center><button style="margin-top:45px; padding-left:5px; padding-right:5px; width:250px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><b>CUSTOMIZE YOURS NOW!</b></button></center>
+		</div>
 
 		<div style= "height:50px;"></div>
 		  	<div class="row">
@@ -138,17 +129,9 @@
 	        	</div>
 			</div>
 
-		<div class= "height:50px;"></div>
-			<div align="center">
-				<div class="container">
-					<p>
-       					<button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
-					</p>
-				</div>
-			</div>
-
 		<div style= "height:50px;"></div>
 
+  		<center><button style="margin-bottom:40px; padding-left:5px; padding-right:5px; width:400px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><font size="+2">DESIGN YOUR OWN HERE</font></button></center>
 
     @stop
 

@@ -1,3 +1,7 @@
+html {
+    font-family: Trebuchet, sans-serif;
+}
+
 <!--MASTER_BLADE-->
 body{
   background-color: lavender;
@@ -34,4 +38,38 @@ nav{
  height: 20px;
  background-color: teal;
  width: 60%;
+}
+
+.basta :hover{
+	background: #00bfa5;
+	background-color: #00bfa5;
+}
+
+#downdown{
+	background-color:white;
+}
+
+#downdown :hover{
+	background: lavender;
+}
+
+#bs{
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-image: url("../img/uniformheader.jpg");
+}
+#gownheader{
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-image: url("../img/gownheader.jpg");
+}
+#suitheader{
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-image: url("../img/suitheader.jpg");
+}
+
+#backyy{
+	 background-size: cover;
+	 background-repeat: no-repeat;
 }

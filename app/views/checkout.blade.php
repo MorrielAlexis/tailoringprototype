@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="section" style="width:70%; margin:auto; background:url(img/background.jpg);">
+<div class="section" style="background:url(img/admin-back.jpg);">
 	<div class="section container">
 
 		<div align = "center">
@@ -87,7 +87,7 @@
 
 			    <div class="card">
 			    	<div class="card-content container">
-				        <a class="btn container" style="background:teal;" href="#!"><i class="small material-icons">input</i> SUBMIT ORDER</a>
+				        <center><a class="btn container" style="background:teal;" href="#!"><i class="small material-icons">input</i> SUBMIT ORDER</a></center>
 					</div>
 				</div>
 

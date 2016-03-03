@@ -3,10 +3,11 @@
 @section('content')
 
 	<div class="section white">	
-		<div style="height:150px; background-image:url(img/background.jpg)">
-      		<center><h1 style=" margin-top: -15px;color:teal">Gowns	</h1></center>
-      		<center><button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button></center>
-    	</div>
+		<div id="gownheader" style="height:400px; margin-top: -15px;">
+	  		<div style="height:70px"></div>
+	  		<center><h1 style="color:white; font-family:'Playfair Display','Times';">Custom tailored gowns</h1></center>
+	  		<center><button style="margin-top:45px; padding-left:5px; padding-right:5px; width:250px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><b>CUSTOMIZE YOURS NOW!</b></button></center>
+		</div>
 
 
 		<div style= "height:50px;"></div>
@@ -129,16 +130,10 @@
 	        	</div>
 			</div>
 
-		<div class= "height:50px;"></div>
-			<div align="center">
-				<div class="container">
-					<p>
-       					<button class="teal-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#modal1">CUSTOMIZE YOURS NOW!</button>
-					</p>
-				</div>
-			</div>
 
 		<div style= "height:50px;"></div>
+
+  		<center><button style="margin-bottom:40px; padding-left:5px; padding-right:5px; width:400px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><font size="+2">DESIGN YOUR OWN HERE</font></button></center>
 
 
     @stop
