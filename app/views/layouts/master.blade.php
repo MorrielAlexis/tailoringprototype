@@ -33,8 +33,8 @@
             <div class="nav-wrapper">
               <a style="margin-left:30px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
-                <li><a style="padding:0; color: white" class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
-                <li><a style="padding:0; color: white" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
+                <li class="basta"><a style="padding:0; color: white" class="basta waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
+                <li class="basta"><a style="padding:0; color: white" class="basta dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
                 <ul id="down" class="dropdown-content">
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupInd">INDIVIDUAL</a></li>
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupCom">COMPANY</a></li>
@@ -49,19 +49,19 @@
               <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
               <ul class="right">
-              <li><a class="btn-flat hoverable" style="padding:0; color: white;" href="/"><b>HOME</b></a></li>
-              <li>
-                <a style="color: white" class="dropdown-button btn-flat hoverable" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+              <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white;" href="/"><b>HOME</b></a></li>
+              <li class="basta">
+                <a style="color: white" class="dropdown-button btn-flat hoverable basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                 <ul id="downdown" class="dropdown-content">
                   <li><a href="/garmentUniform">UNIFORMS</a></li>
                   <li><a href="/garmentGown">GOWNS</a></li>
                   <li><a href="/garmentSuit">SUITS</a></li>
                 </ul>
               </li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-              <li><a class="btn-flat hoverable" style="padding:0; color: white" href="#!"><b>ABOUT US</b></a></li>
+              <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+              <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+              <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+              <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
           </nav>
@@ -211,25 +211,50 @@
           <div style="background-color:#cccccc" class="page-footer">
               <div class="container">
                 <div class="row">
-                  <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                  </div>
-                  <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                  <div class="col s3">
+                    <h5 class="teal-text"><b>MY STORE</b></h5>
                     <ul>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                      <li><a class="black-text" href="#!">Order Now!</a></li>
+                      <li><a class="black-text" href="#!">Uniform Garments</a></li>
+                      <li><a class="black-text" href="#!">Gown Garments</a></li>
+                      <li><a class="black-text" href="#!">Suit Garments</a></li>
+                      <li><a class="black-text" href="#!">How It Works</a></li>
+                      <li><a class="black-text" href="#!">Order Tracking</a></li>
                     </ul>
                   </div>
+                  <div class="col s3">
+                    <h5 class="teal-text"><b>SERVICE</b></h5>
+                    <ul>
+                      <li><a class="black-text" href="#!">Style Consultation</a></li>
+                      <li><a class="black-text" href="#!">Showroom</a></li>
+                      <li><a class="black-text" href="#!">Fit Promise</a></li>
+                      <li><a class="black-text" href="#!">Shipping Policy</a></li>
+                      <li><a class="black-text" href="#!">Alterations/ Remakes/ Returns</a></li>
+                    </ul>
+                  </div>
+                  <div class="col s3">
+                    <h5 class="teal-text"><b>ABOUT US</b></h5>
+                    <ul>
+                      <li><a class="black-text" href="#!">Our Story</a></li>
+                      <li><a class="black-text" href="#!">Reviews</a></li>
+                      <li><a class="black-text" href="#!">Quality</a></li>
+                    </ul>
+                  </div>
+                  <div class="col s3">
+                    <h5 class="teal-text"><b>MORE</b></h5>
+                    <ul>
+                      <li><a class="black-text" href="#!">Contact Us</a></li>
+                      <li><a class="black-text" href="#!">Terms</a></li>
+                      <li><a class="black-text" href="#!">FAQs</a></li>
+                      <li><a class="black-text" href="#!">Shipping</a></li>
+                    </ul>
+                  </div>
+
                 </div>
               </div>
               <div class="footer-copyright">
                 <div class="container">
-                © 2016 Copyright Chuvaness.
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                Copyright © My Store. All rights reserved.
                 </div>
               </div>
             </div>

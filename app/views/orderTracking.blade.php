@@ -2,11 +2,17 @@
 
 
 @section('content')
-	<div class = "section-white">
+	<div class = "section" style="background-image:url(img/admin-back.jpg);">
 			
-		<div style="height:100px; background-image:url(img/background.jpg)">
-			<center><h1 style=" margin-top: 0px;color:teal">Order Tracking</h1></center>
+	<div class="section container">
+
+		<div align = "center">
+			<div style="padding:0.5px">
+				<h1 style="background:white; color:teal;">Order Tracking</h1>
+			</div>
 		</div>
+
+	</div>
 
 		<div class = "container">
 			<div class = "container">
@@ -50,15 +56,12 @@
 							<span id="percent">60%</span>
 							<div id="bar"></div>
 						</div>
-					  	<label><center><font size ="+2">60% of the JOB is done</font></center></label>
+					  	<label><center><font size ="+2">30 of 50 of garments is done</font></center></label>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<br>
-	<br>
 
 
 @stop
