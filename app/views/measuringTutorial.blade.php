@@ -3,11 +3,9 @@
 @section('content')
 
 	<div class="section white">	
-		<div align = "center">
-			<!--<div style= "height:5px;"></div>-->
-				<a href=""><img class="responsive-img" height = "90%" width = "100%" src="img/measure.jpg"></a>
-					<h1 style="color:#00695c;">Start Measuring Yourself</h1>
-					<h5 style="color:#00695c;">Get accurate measurements even with no professional experience in tailoring</h5>
+		<div style="height:300px; width:100%; background-image:url(img/howitwork.jpg)">
+					<center><h1 style="color:#00695c;">Start Measuring Yourself</h1></center>
+					<center><h5 style="color:#00695c;">Get accurate measurements even with no professional experience in tailoring</h5></center>
 		</div>
 
 		<div class="divider"></div>
