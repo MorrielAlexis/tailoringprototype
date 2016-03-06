@@ -4,7 +4,7 @@
 
 	<div class="section white">	
 
-    <div style="height:150px; background-image:url(img/admin-background.jpg)">
+    <div style="height:150px; background-image:url(img/admin-back.jpg)">
       <center><h1 style=" margin-top: -15px;color:white">How It Works</h1></center>
       <center><h4 style="color:white;">Three easy steps to make custom-fit garments</h4></center>
     </div>
