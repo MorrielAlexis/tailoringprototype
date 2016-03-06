@@ -47,8 +47,13 @@
 					<div id="progress">
 						<span id="percent">60%</span>
 						<div id="bar"></div>
+						<div id="progress">
+							<span id="percent">60%</span>
+							<div id="bar"></div>
+						</div>
+					  	<label><center><font size ="+2">30 out of 50 garments is done</font></center></label>
+
 					</div>
-				  	<label><center><font size ="+2">60% of the JOB is done</font></center></label>
 				</div>
 			</div>
 		</div>
