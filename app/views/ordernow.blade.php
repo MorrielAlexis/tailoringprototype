@@ -4,16 +4,9 @@
 
   <div class="section white"> 
 
-    <div class="section" style="margin-top: -15px; background-image:url(img/admin-back.jpg);">
-      <div class="container">
-        <div class="container">
-          <div align = "center">
-            <div style="padding:0.5px">
-              <h1 style="background:white; color:teal;">Order Now</h1>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div id="backyy" style="height:300px; margin-top: -15px; background-image:url('img/headone.jpg')">
+      <div style="height:70px"></div>
+      <center><h1 style="color:white; font-family:'Playfair Display','Times';">Order Now</h1></center>
     </div>
 
     <div class="divider"></div>
@@ -137,12 +130,6 @@
       </div>
     </div>
 
-    <div class="divider"></div>
-    <div style= "height:20px;"></div>
-
-    
-
-    <div class="divider"></div>
 
   </div>
 
