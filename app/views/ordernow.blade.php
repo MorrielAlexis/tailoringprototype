@@ -156,7 +156,7 @@
           </div>
 
         <div style="margin-top:-20px;">
-          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="/checkout">PROCEED TO CHECKOUT</a>
+          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="layouts/checkout">PROCEED TO CHECKOUT</a>
         </div>
       </div>
 

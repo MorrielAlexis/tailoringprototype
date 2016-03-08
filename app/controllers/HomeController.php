@@ -22,6 +22,6 @@ class HomeController extends BaseController {
 
 	public function out()
 	{
-		return View::make('checkout');
+		return View::make('layouts/checkout');
 	}
 }
