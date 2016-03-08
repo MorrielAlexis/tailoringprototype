@@ -66,7 +66,7 @@
 
               <div>
                 <p class="center" style="margin-top:-20px; color:green;">Please specify measurement</p>
-                <center><a style="width:95%;" class="btn-flat modal-trigger hoverable teal white-text" href="modalMeas">MEASUREMENT</a></center>
+                <center><a style="width:95%;" class="btn-flat modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
               </div>
 
               </div>
@@ -115,7 +115,7 @@
 
               <div>
                 <p class="center" style="margin-top:-20px; color:green;">Please specify measurement</p>
-                <center><a style="width:95%;" class="btn-flat modal-trigger hoverable teal white-text" href="modalMeas">MEASUREMENT</a></center>
+                <center><a style="width:95%;" class="btn-flat modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
               </div>
 
               </div>
@@ -215,11 +215,6 @@
 @stop
 
 @section('scripts')  
-  <script>
-   $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
-  </script>
+  
     
 @stop   
