@@ -20,4 +20,8 @@ class HomeController extends BaseController {
 		return View::make('homepage');
 	}
 
+	public function out()
+	{
+		return View::make('checkout');
+	}
 }
