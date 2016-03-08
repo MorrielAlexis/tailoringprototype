@@ -4,9 +4,7 @@ html {
 
 <!--MASTER_BLADE-->
 body{
-  background-color: lavender;
-  background-position: center;
-  font-family: cursive;
+  font-family: Trebuchet, sans-serif;
 }
 nav{
   background-color: transparent;
@@ -72,4 +70,12 @@ nav{
 #backyy{
 	 background-size: cover;
 	 background-repeat: no-repeat;
+}
+
+.tab .active{
+	background-color: #00bfa5;
+}
+
+.tab :selected{
+	background-color: #00bfa5;
 }
