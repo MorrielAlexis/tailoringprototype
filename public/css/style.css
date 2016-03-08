@@ -79,3 +79,7 @@ nav{
 .tab :selected{
 	background-color: #00bfa5;
 }
+
+#video-wrap { 
+	float: right; margin: 0 20px 50px 0; 
+}

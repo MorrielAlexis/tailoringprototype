@@ -4,7 +4,7 @@
 
 	<div class="section white">	
 
-		<div id="gownheader" style="height:400px; margin-top: -15px;">
+		<div id="gownheader" style="height:500px; margin-top: -15px;">
 	  		<div style="height:70px"></div>
 	  		<center><h1 style="color:white; font-family:'Playfair Display','Times';">Custom tailored gowns</h1></center>
 	  		<center><button style="margin-top:45px; padding-left:5px; padding-right:5px; width:250px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><b>CUSTOMIZE YOURS NOW!</b></button></center>
