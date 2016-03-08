@@ -3,100 +3,113 @@
 
 @section('content')
 
-<div class="section" style="background:url(img/admin-back.jpg);">
-	<div class="section container">
-
-		<div align = "center">
-			<div style="padding:0.5px">
-				<h1 style="background:white; color:#e53935;">CHECKOUT</h1>
-			</div>
-		</div>
-
-		<div class="divider"></div>
-
-		<div class="card">
-			<div class="card-content">
-				<h4 class="card-title" align="center"><b>Fill up form</b></h4>
-				<div class="row">
-					<div class="col s6">
-						<input id="first_name" type="text" class="validate">
-						<label for="first_name">First Name</label>
-					</div>
-					<div class="col s6">
-						<input id="last_name" type="text" class="validate">
-						<label for="last_name">Last Name</label>
-					</div>
-				</div>
-				<div>
-					<input id="address" type="text" class="validate">
-					<label for="address">Address</label>
-				</div>
-				<div class="row">
-					<div class="col s6">
-						<input id="email" type="email" class="validate">
-						<label for="email">E-mail</label>
-					</div>
-					<div class="col s6">
-						<input id="cpnumber" type="text" class="validate">
-						<label for="cpnumber">Cellphone Number</label>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="height:40px;"></div>
-
+	<div class="section  white" style="margin-top:20px; margin-bottom:20px;">
 		<div class="row">
-			<div class="col s6">
-				<div class="card">
-					<div class="card-content">
-						<p class = "input-field" style="margin-top:30px;">
-			              	<input id = "totalprice" value = "PHP 4,100.00" name = "totalprice" type = "text" readonly>
-			              	<label for = "totalprice"><font size="+1" color="#e53935"><b>TOTAL PRICE:</b></font></label>
-		            	</p>
-	      			</div>
-	      		</div>
-	      	</div>
-	      	<div class="col s6">
-	      		<div class="card">
-	      			<div class="card-content">
-			            <p class = "input-field" style="margin-top:30px;">
-				            <input id = "downpayment" value = "PHP 2,050.00" name = "downpayment" type = "text" readonly>
-			    	        <label for = "downpayment"><font size="+1" color="blue"><b>DOWNPAYMENT:</b></font></label>
-	            		</p>
-	            	</div>
-	            </div>
-	        </div>
-	    </div>
+			<div class="col s12">
+				<ul class="tabs teal">
+					<li id="tabLogin" class="tab col s4 active"><a href="#login"><font color="white" size="+1">1. LOGIN</font></a></li>
+					<li id="tabShipping" class="tab col s4"><a href="#shipping"><font color="white" size="+1">2. SHIPPING</font></a></li>
+					<li id="tabPayment" class="tab col s4"><a href="#payment"><font color="white" size="+1">3. PAYMENT</font></a></li>
+			        <div class="indicator teal accent-4" style="z-index:1"></div>
+				</ul>
+			</div>
 
-	    <div class="card">
-	    	<div class="card-content">
-	    		<div class="row">
-	    			<div class="col s4" style="margin-top:10px;">
-                        <img class="responsive-img" src="img/truck.jpg">
-	    			</div>
-	    			<div class="col s8" style="margin-top:10px;">
-			            <p class = "input-field" style="margin-top:30px;">
-				            <input id = "deliverydate" value = "3 / 14 / 16" name = "deliverydate" type = "text" readonly>
-			    	        <label for = "deliverydate"><font size="+1" color="teal"><b>Estimated delivery date:</b></font></label>
-	            		</p>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
+			<div id="login" class="col s12" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+				<div style="height:20px;"></div>
 
-			    <div class="card">
-			    	<div class="card-content container">
-				        <center><a class="btn container" style="background:teal;" href="#!"><i class="small material-icons">input</i> SUBMIT ORDER</a></center>
+				<div class="row">
+					<div class="col s8">
+						<div style="padding:5px; border: 1px solid #00bfa5;">
+							<h6><b>Login or Checkout as guest</b></h6>
+							<div class="divider"></div>
+							
+							<div class="container" style="margin-top:40px; margin-bottom:40px;">
+								<div class="container">
+									<div class="input-field">
+										<input id ="email" type="text" class="validate">
+										<label for="email">Enter your email address</label>
+									</div>
+									<form style="margin-left:20px;">
+										<p>
+									    	<input class="with-gap" name="guest" type="radio" id="guest"  />
+									      	<label for="guest">Continue without password</label>
+									    </p>
+									    <p>
+									      	<input class="with-gap" name="member" type="radio" id="member"  />
+									      	<label for="member">I already have an account</label>
+									    </p>
+									</form>
+									<div class="input-field">
+										<input disabled id ="password" type="text" class="validate">
+										<label for="password">Password</label>
+									</div>
+									<p class="right-align blue-text">Lost your password?</p>
+									<div class="btn teal accent-4 white-text container" style="width:100%;" href="#tabshipping">CONTINUE</div>
+
+								</div>
+							</div>
+
+						</div>
 					</div>
+
+					<div class="col s4">
+						<div style="padding:5px; border: 1px solid #00bfa5;">
+							<h6><b>Order Summary</b> (2 items)</h6>
+							<div class="divider"></div>
+							<table class="responsive-table">
+								<thead>
+									<tr style="background-color:grey lighten-3;">
+										<th class="left-align"><font size="-1">PRODUCT</font></th>
+										<th><font size="-1">QUANTITY</font></th>
+										<th class="right-align"><font size="-1">PRICE</font></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Women's Uniform</td>
+										<td class="center">1</td>
+										<td>1,700.00</td>
+									</tr>
+									<tr>
+										<td>Gown</td>
+										<td class="center">1</td>
+										<td>2,400.00</td>
+									</tr>
+								</tbody>
+							</table>
+							<div class="divider"></div>
+							<div class="row" style="margin-bottom:-20px;">
+				                <p class="col s6"><b>Subtotal</b></p>
+				                <p class = "col s6 input-field" style="margin-top:-1px;">
+				                	<input class="center" id = "subtotal" value = "P 4,100.00" name = "subtotal" type = "text" readonly>
+				                </p>
+				            </div>
+				            <div class="divider" style="margin-top:20px;"></div>
+				            <div class="row" style="margin-bottom:-20px;">
+					            <p class="col s6 red-text"><font size="+1"><b>TOTAL</b></font></p>
+					            <p class = "col s6 input-field" style="margin-top:-0px;">
+					                <b><input class="center" id = "total" value = "P 4,100.00" name = "total" type = "text" readonly></b>
+					            </p>
+					        </div>
+
+						</div>
+					</div>
+
 				</div>
+			</div>
 
+			<div id="shipping" class="col s12" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">shipping</div>
+			<div id="payment" class="col s12" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">payment</div>
+
+		</div>
 	</div>
-
-</div>
 
 @stop
 
 @section('scripts')	
-
+	<script>
+	  $(document).ready(function(){
+	    $('ul.tabs').tabs();
+	  });
+	  </script>
 @stop

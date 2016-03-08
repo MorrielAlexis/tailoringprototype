@@ -12,7 +12,8 @@
 
       <style>
         body{
-        
+          background: url('img/one.jpg');
+          background-size: cover;
         }
         nav{
           box-shadow: 0px 0px;

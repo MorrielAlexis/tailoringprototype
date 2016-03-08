@@ -20,7 +20,7 @@
         </ul>
     </div>
 
-    <div class="section white">
+    <div class="section transparent">
         <div style="height:50px;"></div>
             <div class="row">
                 <div class="col s6">   
