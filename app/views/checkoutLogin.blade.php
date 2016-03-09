@@ -3,8 +3,6 @@
 
 @section('content')
 
-	<div class="section" style="margin-top:20px; margin-bottom:20px;">
-		<div class="row">
 
 			<!--LOGIN TAB-->
 			<div id="login" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
@@ -45,8 +43,6 @@
 			</div>
 			<!--END OF LOGIN TAB-->
 
-		</div>
-	</div>
 
 
 @stop
