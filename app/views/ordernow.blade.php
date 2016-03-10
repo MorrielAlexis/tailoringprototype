@@ -46,7 +46,7 @@
 
                   <div class="col s5">
 
-                    <a class="right" style="padding:0px; margin-right:5px;" href="#!">REMOVE</a>
+                    <a class="right" style="padding:0px; margin-right:5px;" href="#!"><i style="color:grey" class="material-icons right">close</i></a>
                     <p class = "input-field" style="width:90%; margin-top:55px;">
                       <input class="center" id = "price" value = "PHP 1,400.00" name = "price" type = "text" readonly>
                       <label for = "price"><font size="+1" color="green"><b>PRICE:</b></font></label>
@@ -118,7 +118,7 @@
 
                   <div class="col s5">
 
-                    <a class="right" style="padding:0px; margin-right:5px;" href="#!">REMOVE</a>
+                    <a class="right" style="padding:0px; margin-right:5px;" href="#!"><i style="color:grey" class="material-icons right">close</i></a>
                     <p class = "input-field" style="width:90%; margin-top:55px;">
                       <input class="center" id = "price" value = "PHP 2,700.00" name = "price" type = "text" readonly>
                       <label for = "price"><font size="+1" color="green"><b>PRICE:</b></font></label>

@@ -130,7 +130,7 @@
             <div style="padding:5px; border: 1px solid #00bfa5;">
               <h6 class="green-text"><b>Order Summary</b> (2 items)</h6>
               <div class="divider"></div>
-              <table class="responsive-table" style="margin-top:10px; margin-bottom:10px;">
+              <table class="responsive-table scrollable" style="margin-top:10px; margin-bottom:10px;">
                 <thead>
                   <tr style="background-color:grey lighten-3;">
                     <th class="left-align"><font size="-1">PRODUCT</font></th>
