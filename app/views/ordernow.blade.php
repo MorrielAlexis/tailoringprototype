@@ -90,7 +90,7 @@
                 <div style="margin-right:10px;">
                   <center><a style="width:100%;" class="btn-flat disabled modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
 
-                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="#!">CUSTOMIZE ORDER</a></center>
+                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="/customizeorder">CUSTOMIZE ORDER</a></center>
                 </div>
               </div>
             </div>
@@ -107,6 +107,7 @@
 
               <div class="col s6">
                 <div class="row">
+
                   <div class="col s7">
                     <p style="margin-top:30px;"><font size="+1">Gown</font></p>
                     <ul>
@@ -122,28 +123,50 @@
                       <input class="center" id = "price" value = "PHP 2,700.00" name = "price" type = "text" readonly>
                       <label for = "price"><font size="+1" color="green"><b>PRICE:</b></font></label>
                     </p>
-              
-                    <div class="input-field">
-                      <div class="row">
-                        <div class="col s3"><i class="small mdi-content-add-circle" style="color:teal"></i></div>
-                        <div class="col s6">
-                          <input class="center" id="quantity" value="1" type="text" readonly>
-                        </div>
-                        <div class="col s3" style="margin-left:-15px;"><i class="small mdi-content-remove-circle" style="color:teal"></i></div>
-                      </div>
+
+                  </div>
+
+                  <div class="divider container" style"color:teal accent-4;"></div>
+
+                  <form action="#">
+                    <p>
+                      <input class="with-gap" name="shop" type="radio" id="shop"/>
+                        <label for="shop">Go to shop for measurement</label>
+                    </p>
+                    <p>
+                        <input class="with-gap" name="online" type="radio" id="online"/>
+                        <label for="online">Submit measurement online</label>
+                    </p>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row" style="margin-top:-20px;">
+              <div class="col s6">
+                <center><h6>Quantity</h6></center>
+                <div class="container">
+                  <div class="row">
+                    <div class="col s3"><i class="small mdi-content-add-circle" style="color:teal"></i></div>
+                    <div class="input-field col s6" style="margin-top:-2px;">
+                      <input class="center" id="quantity" value="1" type="text" readonly>
                     </div>
-      
+                    <div class="col s3"><i class="small mdi-content-remove-circle" style="color:teal"></i></div>
                   </div>
                 </div>
-
-              <div>
-                <p class="center" style="margin-top:-20px; color:green;">Please specify measurement</p>
-                <center><a style="width:95%;" class="btn-flat modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
               </div>
 
-              </div>
+              <div class="col s6">
+                <div style="margin-right:10px;">
+                  <center><a style="width:100%;" class="btn-flat disabled modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
 
+                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="/customizeorder">CUSTOMIZE ORDER</a></center>
+                </div>
+              </div>
             </div>
+
           </div>
 
         </div>

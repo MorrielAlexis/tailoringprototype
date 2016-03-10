@@ -49,20 +49,25 @@
           <nav>
               <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul class="align-center">
-                <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white;" href="/"><b>HOME</b></a></li>
+              <ul class="container">
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
+                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta">
-                  <a style="color: white" class="dropdown-button btn-flat hoverable basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                  <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
                     <li><a href="/garmentUniform">UNIFORMS</a></li>
                     <li><a href="/garmentGown">GOWNS</a></li>
                     <li><a href="/garmentSuit">SUITS</a></li>
                   </ul>
                 </li>
-                <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
-                <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
-                <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
-                <li class="basta"><a class="btn-flat hoverable basta" style="padding:0; color: white" href="#!"><b>ABOUT US</b></a></li>
+                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ABOUT US</b></a></li>
               </ul>
             </div>
           </nav>

@@ -15,7 +15,7 @@
       </div>
 
       <!--LOGIN TAB-->
-      <div id="login" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="login" class="col s12 white" style="border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
         <div class="container">
@@ -54,7 +54,7 @@
       <!--END OF LOGIN TAB-->
 
       <!--SHIPPING TAB-->
-      <div id="shipping" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="shipping" class="col s12 white" style="border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
           <div class="container">
@@ -105,7 +105,7 @@
       <!--END OF SHIPPING TAB-->
 
       <!--PAYMENT TAB-->
-      <div id="payment" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="payment" class="col s12 white" style="border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
         <div class="row">

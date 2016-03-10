@@ -12,4 +12,9 @@ class OrderNowController extends BaseController{
 		return View::make('checkout');
 	}
 	
+	public function custom()
+	{
+		return View::make('customizeorder');
+	}
+	
 }

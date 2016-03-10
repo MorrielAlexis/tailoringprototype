@@ -14,11 +14,13 @@
 
 Route::get('/', 'HomeController@showWelcome');
 
-Route::get('/checkout', 'OrderNowController@out');
-
 Route::get('/homepage', 'HomeController@home');
 
 Route::get('/ordernow', 'OrderNowController@order');
+
+Route::get('/checkout', 'OrderNowController@out');
+
+Route::get('/customizeorder', 'OrderNowController@custom');
 
 Route::get('/howitworks', 'HowItWorksController@how');
 
