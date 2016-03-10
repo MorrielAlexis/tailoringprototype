@@ -14,7 +14,7 @@
 
 Route::get('/', 'HomeController@showWelcome');
 
-Route::get('layouts/checkout', 'HomeController@out');
+Route::get('/checkout', 'OrderNowController@out');
 
 Route::get('/homepage', 'HomeController@home');
 
@@ -29,14 +29,6 @@ Route::get('/orderTracking', 'OrderTrackingController@order');
 Route::get('/howitworks', 'HowItWorksController@how');
 
 Route::get('/garmentUniform', 'GarmentUniformController@uniform');
-
-
-
-Route::get('/checkoutLogin', 'CheckoutController@log');
-
-Route::get('/checkoutShipping', 'CheckoutController@ship');
-
-Route::get('/checkoutPayment', 'CheckoutController@pay');
 
 
 Route::get('/garmentGown', 'GarmentGownController@gown');

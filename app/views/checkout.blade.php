@@ -1,36 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-
-      <title>Checkout</title>
-      
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-      {{ HTML::style('css/materialize.min.css') }}
-      {{ HTML::style('css/style.css') }}
-
-      <style>
-        body{
-        }
-      </style>
-    </head>
-
-    <body>
+@extends('layouts.master')
 
 
-      <nav>
-        <div class="nav-wrapper teal accent-4">
-          <div class="col s12">
-            <a href="#checkoutLogin" class="breadcrumb active">Login</a>
-            <a href="#checkoutShipping" class="breadcrumb">Shipping</a>
-            <a href="#checkoutPayment" class="breadcrumb">Payment</a>
-          </div>
-        </div>
-      </nav>
-      
+@section('content')
+
+  <div class="section" style="margin-top:20px; margin-bottom:20px;">
+    <div class="row">
+      <div class="col s12">
+        <ul class="tabs teal">
+          <li id="tabLogin" class="tab col s4 active"><a href="#login"><font color="white" size="+1">1. LOGIN</font></a></li>
+          <li id="tabShipping" class="tab col s4"><a href="#shipping"><font color="white" size="+1">2. SHIPPING</font></a></li>
+          <li id="tabPayment" class="tab col s4"><a href="#payment"><font color="white" size="+1">3. PAYMENT</font></a></li>
+              <div class="indicator teal accent-4" style="z-index:1"></div>
+        </ul>
+      </div>
+
       <!--LOGIN TAB-->
-      <div id="checkoutLogin" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="login" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
         <div class="container">
@@ -59,7 +44,7 @@
                   <label for="password">Password</label>
                 </div>
                 <p class="right-align blue-text">Lost your password?</p>
-                <div class="btn red darken-1 white-text container" style="width:100%;" href="#tabshipping">CONTINUE</div>
+                <div class="btn red darken-1 white-text container" style="width:100%;" href="#tabShipping">CONTINUE</div>
 
               </div>
             </div>
@@ -69,7 +54,7 @@
       <!--END OF LOGIN TAB-->
 
       <!--SHIPPING TAB-->
-      <div id="checkoutShipping" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="shipping" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
           <div class="container">
@@ -110,7 +95,7 @@
                         </p>
                     </div>
 
-                <div class="btn red darken-1 white-text container" style=" margin-top:20px; width:100%; padding:5px; height:50px;" href="#tabshipping">CONTINUE</div>
+                <div class="btn red darken-1 white-text container" style=" margin-top:20px; width:100%; padding:5px; height:50px;" href="#tabPayment">CONTINUE</div>
               </div>
 
             </div>
@@ -120,7 +105,7 @@
       <!--END OF SHIPPING TAB-->
 
       <!--PAYMENT TAB-->
-      <div id="checkoutPayment" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
+      <div id="payment" class="col s12 white" style="margin-left:11px; width:97.8%; border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
         <div class="row">
@@ -200,79 +185,16 @@
       <!--END OF PAYMENT TAB-->
 
 
+    </div>
+  </div>
 
 
-      <main>
-        <div style="height:40px;"></div>
-        @yield('content')
+@stop
 
-        <footer>
-          <div style="background-color:#cccccc" class="page-footer">
-              <div class="container">
-                <div class="row">
-                  <div class="col s3">
-                    <h5 class="teal-text"><b>MY STORE</b></h5>
-                    <ul>
-                      <li><a class="black-text" href="#!">Order Now!</a></li>
-                      <li><a class="black-text" href="#!">Uniform Garments</a></li>
-                      <li><a class="black-text" href="#!">Gown Garments</a></li>
-                      <li><a class="black-text" href="#!">Suit Garments</a></li>
-                      <li><a class="black-text" href="#!">How It Works</a></li>
-                      <li><a class="black-text" href="#!">Order Tracking</a></li>
-                    </ul>
-                  </div>
-                  <div class="col s3">
-                    <h5 class="teal-text"><b>SERVICE</b></h5>
-                    <ul>
-                      <li><a class="black-text" href="#!">Style Consultation</a></li>
-                      <li><a class="black-text" href="#!">Showroom</a></li>
-                      <li><a class="black-text" href="#!">Fit Promise</a></li>
-                      <li><a class="black-text" href="#!">Shipping Policy</a></li>
-                      <li><a class="black-text" href="#!">Alterations/ Remakes/ Returns</a></li>
-                    </ul>
-                  </div>
-                  <div class="col s3">
-                    <h5 class="teal-text"><b>ABOUT US</b></h5>
-                    <ul>
-                      <li><a class="black-text" href="#!">Our Story</a></li>
-                      <li><a class="black-text" href="#!">Reviews</a></li>
-                      <li><a class="black-text" href="#!">Quality</a></li>
-                    </ul>
-                  </div>
-                  <div class="col s3">
-                    <h5 class="teal-text"><b>MORE</b></h5>
-                    <ul>
-                      <li><a class="black-text" href="#!">Contact Us</a></li>
-                      <li><a class="black-text" href="#!">Terms</a></li>
-                      <li><a class="black-text" href="#!">FAQs</a></li>
-                      <li><a class="black-text" href="#!">Shipping</a></li>
-                    </ul>
-                  </div>
-
-                </div>
-              </div>
-              <div class="footer-copyright">
-                <div class="container">
-                Copyright © My Store. All rights reserved.
-                </div>
-              </div>
-            </div>
-        </footer>
-      </main>
-
-
-      {{ HTML::script('js/jquery-2.1.4.min.js') }}
-      {{ HTML::script('js/materialize.min.js') }}
-      
-      <script>
-
-      </script>
-
-        @yield('scripts')
-
-
-
-    </body>
-
-
-</html>
+@section('scripts') 
+  <script>
+    $(document).ready(function(){
+      $('ul.tabs').tabs();
+    });
+    </script>
+@stop
