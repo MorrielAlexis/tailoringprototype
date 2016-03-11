@@ -32,7 +32,7 @@
         <div class="navbar teal">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:30px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
+              <img src="../img/logo.jpg"  alt="" class="circle responsive-img valign profile-image center" style="height:90px; width:100px; margin-top:5px; margin-left:30px">
               <ul class="right hide-on-med-and-down">
                 <li class="basta"><a style="padding:0; color: white" class="basta waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
                 <li class="basta"><a style="padding:0; color: white" class="basta dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
@@ -49,7 +49,7 @@
           <nav>
               <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul style="margin-left:130px;">
+              <ul style="margin-left:150px;">
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta">
