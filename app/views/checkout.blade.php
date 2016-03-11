@@ -89,10 +89,10 @@
                 </div>
 
                 <div class="container">
-                  <center><h5 style="color:#e53935">Standard Delivery</h5></center>
+                  <center><h5 style="color:#e53935">Estimated Delivery</h5></center>
                   <p class = "input-field">
-                            <b><input class="center" id = "deliverydate" value = "14 Mar - 15 Mar" name = "deliverydate" type = "text" readonly></b>
-                        </p>
+                    <input class="center" placeholder="days / weeks" id = "deliverydate" type = "text" class="validate">
+                  </p>
                     </div>
 
                 <div class="btn red darken-1 white-text container" style=" margin-top:20px; width:100%; padding:5px; height:50px;" href="#tabPayment">CONTINUE</div>
@@ -154,7 +154,7 @@
 
               <div class="divider"></div>
               <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                <h6 class="col s6 blue-text"><b>Standard Delivery</b></h6>
+                <h6 class="col s6 blue-text"><b>Estimated Delivery</b></h6>
                         <p class = "col s6 input-field" style="margin-top:-1px;">
                           <b><input class="center" id = "deliverydate" value = "14 Mar - 15 Mar" name = "deliverydate" type = "text" readonly></b>
                         </p>

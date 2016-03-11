@@ -2,185 +2,68 @@
 
 @section('content')
 
-	<div class="section white">	
+	<div class="section">	
+
 		<div id="bs" style="height:500px; margin-top: -15px;">
 	  		<div style="height:70px"></div>
 	  		<center><h1 style="color:white; font-family:'Playfair Display','Times';">Custom tailored uniforms</h1></center>
 	  		<center><button style="margin-top:45px; padding-left:5px; padding-right:5px; width:250px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><font size="+1">CUSTOMIZE YOURS NOW!</font></button></center>
 		</div>
 
-		<div style= "height:50px;"></div>
-		  	<div class="row">
-			    <div class="col s4">
-	                    <div class="container">
-	                       <p>
-	                        	<img class = "responsive-img" src="imgUniform/uni1.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-	                       </p>
-	                    </div>
-	           	  </div>
+		<div style= "height:20px;"></div>
 
-	           	  <div class="col s4">
-	                    <div class="container">
-	                    	<p>
-	                        	<img class = "responsive-img" src="imgUniform/uni2.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
+		<div class="section white container" style="width:95%; padding-left:20px; padding-right:20px;">
 
-	                        </p>
-	                    </div>
-	           	  </div>
+			<div class="row">
 
-	           	  <div class="col s4">
-	                    <div class="container">
-	      					<p>
-	                         	<img class = "responsive-img" src="imgUniform/uni3.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-	       					</p>
+				<div class="col s4 center" style="padding:20px;">
+		            <img class = "responsive-img" src="imgUniform/uni2.jpg">
+	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+				</div>
 
-	                    </div>
-	           	  </div>
+				<div class="col s4 center" style="padding:30px;">
+		            <img class = "responsive-img" src="imgUniform/uni4.jpg">
+	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+				</div>
 
-	        	</div>
+				<div class="col s4 center" style="padding:20px;">
+		            <img class = "responsive-img" src="imgUniform/uni8.jpg">
+	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+				</div>
+
 			</div>
 
-		<div style= "height:50px;"></div>
-		  	<div class="row">
-			    <div class="col s4">
-	                    <div class="container">
-	                       <p>
-	                        	<img class = "responsive-img" src="imgUniform/uni4.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
+			<div class="divider container" style="margin-bottom:20px;"></div>
 
-	                       </p>
-	                    </div>
-	           	  </div>
-
-	           	  <div class="col s4">
-	                    <div class="container">
-	                    	<p>
-	                        	<img class = "responsive-img" src="imgUniform/uni5.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-
-	                        </p>
-	                    </div>
-	           	  </div>
-
-	           	  <div class="col s4">
-	                    <div class="container">
-	      					<p>
-	                         	<img class = "responsive-img" src="imgUniform/uni6.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-	       					</p>
-
-	                    </div>
-	           	  </div>
-
-	        	</div>
+			<div class="row">
+				<div class="col s6">
+					<img style="padding:20px;" class="responsive-img" src="img/unimehe3.jpg">
+				</div>
+				<div class="col s6" style="padding:20px;">
+					<h4 style="font-family:'Playfair Display','Times';">Custom tailored uniforms - designed by you</h4>
+					<h6>Buying a custom tailored shirt from us is always an excellent choice. We promise to give you:</h6>
+					<ul>
+						<li>Guaranteed perfect fit</li>
+						<li>Highest quality fabrics, materials and craftmanship</li>
+						<li>Unique <b>custom tailored uniform</b> to wear with ultimate confidence</li>
+					</ul>
+				</div>
 			</div>
 
-		<div style= "height:50px;"></div>
-		  	<div class="row">
-			    <div class="col s4">
-	                    <div class="container">
-	                       <p>
-	                        	<img class = "responsive-img" src="imgUniform/uni7.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-
-	                       </p>
-	                    </div>
-	           	  </div>
-
-	           	  <div class="col s4">
-	                    <div class="container">
-	                    	<p>
-	                        	<img class = "responsive-img" src="imgUniform/uni8.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-
-	                        </p>
-	                    </div>
-	           	  </div>
-
-	           	  <div class="col s4">
-	                    <div class="container">
-	      					<p>
-	                         	<img class = "responsive-img" src="imgUniform/uni9.jpg">
-                    			<div class="row" style=" margin-top: -20px;">
-	                        		<div class = "col s5">&nbsp</div>
-	                        		<div class = "col s7">
-	                        			<label><font size = "+1" color= "black">ADD TO CART!</font></label>
-		                    			<a href="#addThread" class="btn-floating modal-trigger btn-medium waves-effect waves-light teal"><i class="centered tiny material-icons">add_shopping_cart</i></a>
-	
-			       					</div>
-	       						</div>
-	       					</p>
-
-	                    </div>
-	           	  </div>
-
-	        	</div>
+			<div class="row">
+				<div class="col s6" style="padding:20px;">
+					<h4 style="font-family:'Playfair Display','Times';">Modern technology - traditional craftsmanship</h4>
+					<p>Our world renowned shirt designer software lets you customize your very own shirt. The combinations are almost endless - go ahead and try!</p>
+					<p>We strive to create the greatest shopping experience. By using our cutting-edge technology to visualize your custom shirt, you can be confident that we will deliver on our promise.</p>
+				</div>
+				<div class="col s6">
+					<img style="padding:20px;" class="responsive-img" src="img/unimehe2.jpg">
+				</div>
 			</div>
+		</div>
 
-		<div style= "height:50px;"></div>
-
-  		<center><button style="margin-bottom:40px; padding-left:5px; padding-right:5px; width:400px; height:70px; background:rgb(236, 59, 65);" class="white-text modal-trigger waves-effect waves-light btn btn-small center-text" href="#"><font size="+2">DESIGN YOUR OWN HERE</font></button></center>
-
-    @stop
+	</div>
+@stop
 
 @section('scripts')	 
     <script>

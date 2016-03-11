@@ -12,7 +12,7 @@
 
       <style>
         body{
-          background: url('img/one.jpg');
+          background: url('img/gradient.jpg');
           background-size: cover;
         }
         nav{
@@ -49,7 +49,7 @@
           <nav>
               <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul class="container">
+              <ul style="margin-left:130px;">
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta">
@@ -67,7 +67,7 @@
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ABOUT US</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
               </ul>
             </div>
           </nav>
@@ -281,7 +281,7 @@
           hover: false, // Activate on hover
           gutter: 0, // Spacing from edge
           belowOrigin: false, // Displays dropdown below the button
-          alignment: 'right' // Displays dropdown with edge aligned to the left of button
+          alignment: 'left' // Displays dropdown with edge aligned to the left of button
         });
       });
           
