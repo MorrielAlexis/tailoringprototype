@@ -56,13 +56,13 @@
 
                   <div class="divider container" style"color:teal accent-4;"></div>
 
-                  <form action="#">
+                  <form action="uniform">
                     <p>
-                      <input class="with-gap" name="shop" type="radio" id="shop"/>
+                      <input class="with-gap" name="onlineshop" type="radio" id="shop"/>
                         <label for="shop">Go to shop for measurement</label>
                     </p>
                     <p>
-                        <input class="with-gap" name="online" type="radio" id="online"/>
+                        <input class="with-gap" name="onlineshop" type="radio" id="online"/>
                         <label for="online">Submit measurement online</label>
                     </p>
                   </form>
@@ -128,14 +128,14 @@
 
                   <div class="divider container" style"color:teal accent-4;"></div>
 
-                  <form action="#">
+                  <form action="gown">
                     <p>
-                      <input class="with-gap" name="shop" type="radio" id="shop"/>
-                        <label for="shop">Go to shop for measurement</label>
+                      <input class="with-gap" name="gownonlineshop" type="radio" id="gownshop"/>
+                        <label for="gownshop">Go to shop for measurement</label>
                     </p>
                     <p>
-                        <input class="with-gap" name="online" type="radio" id="online"/>
-                        <label for="online">Submit measurement online</label>
+                        <input class="with-gap" name="gownonlineshop" type="radio" id="gownonline"/>
+                        <label for="gownonline">Submit measurement online</label>
                     </p>
                   </form>
 
