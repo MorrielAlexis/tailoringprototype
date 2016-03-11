@@ -8,7 +8,7 @@
       <div class="col s12">
         <ul class="tabs teal">
           <li id="tabLogin" class="tab col s4 active"><a href="#login"><font color="white" size="+1">1. LOGIN</font></a></li>
-          <li id="tabShipping" class="tab col s4"><a href="#shipping"><font color="white" size="+1">2. SHIPPING</font></a></li>
+          <li id="tabdelivery" class="tab col s4"><a href="#delivery"><font color="white" size="+1">2. delivery</font></a></li>
           <li id="tabPayment" class="tab col s4"><a href="#payment"><font color="white" size="+1">3. PAYMENT</font></a></li>
               <div class="indicator teal accent-4" style="z-index:1"></div>
         </ul>
@@ -44,7 +44,7 @@
                   <label for="password">Password</label>
                 </div>
                 <p class="right-align blue-text">Lost your password?</p>
-                <div class="btn red darken-1 white-text container" style="width:100%;" href="#tabShipping">CONTINUE</div>
+                <div class="btn red darken-1 white-text container" style="width:100%;" href="#tabdelivery">CONTINUE</div>
 
               </div>
             </div>
@@ -53,13 +53,13 @@
       </div>
       <!--END OF LOGIN TAB-->
 
-      <!--SHIPPING TAB-->
-      <div id="shipping" class="col s12 white" style="border: 1px solid #00bfa5;">
+      <!--delivery TAB-->
+      <div id="delivery" class="col s12 white" style="border: 1px solid #00bfa5;">
         <div style="height:20px;"></div>
 
           <div class="container">
             <div style="padding:5px; border: 1px solid #00bfa5; margin-bottom:20px;">
-              <h6 style="margin-left:20px;"><b>Your shipping address</b></h6>
+              <h6 style="margin-left:20px;"><b>Your delivery address</b></h6>
               <div class="divider"></div>
               
               <div class="container" style="margin-top:40px; margin-bottom:40px;">
@@ -93,7 +93,16 @@
                   <p class = "input-field">
                     <input class="center" placeholder="days / weeks" id = "deliverydate" type = "text" class="validate">
                   </p>
-                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                  <form action="#">
+                    <p>
+                      <input type="checkbox" id="delivernot" />
+                      <label for="delivernot"></label>
+                    </p>
+                  </form>
 
                 <div class="btn red darken-1 white-text container" style=" margin-top:20px; width:100%; padding:5px; height:50px;" href="#tabPayment">CONTINUE</div>
               </div>
@@ -102,7 +111,7 @@
 
           </div>
       </div>
-      <!--END OF SHIPPING TAB-->
+      <!--END OF delivery TAB-->
 
       <!--PAYMENT TAB-->
       <div id="payment" class="col s12 white" style="border: 1px solid #00bfa5;">
@@ -111,7 +120,7 @@
         <div class="row">
           <div class="col s4">
             <div style="border: 1px solid #00bfa5; margin-bottom:20px;">
-              <h6 style="margin-left:20px;"><b>Shipping and Billing address</b><span class="blue-text" href="#!">  Edit</span></h6>
+              <h6 style="margin-left:20px;"><b>Delivery and Billing address</b><span class="blue-text" href="#!">  Edit</span></h6>
               <div class="divider"></div>
               
               <div class="container" style="margin-top:40px; margin-bottom:40px;">

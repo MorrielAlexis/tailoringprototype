@@ -2,12 +2,9 @@
 
 
 @section('content')
-	<div class = "section white">
+	<div class = "section">
 			
-    <div id="backyy" style="height:300px; margin-top: -15px; background-image:url('img/foot.jpg')">
-      <div style="height:70px"></div>
       <center><h1 style="color:white; font-family:'Playfair Display','Times';">Order Tracking</h1></center>
-    </div>
 
 		<div class = "container">
 			<div class = "card-panel">
@@ -47,10 +44,6 @@
 					<div id="progress">
 						<span id="percent">60%</span>
 						<div id="bar"></div>
-						<div id="progress">
-							<span id="percent">60%</span>
-							<div id="bar"></div>
-						</div>
 					  	<label><center><font size ="+2">30 out of 50 garments is done</font></center></label>
 
 					</div>
