@@ -98,9 +98,9 @@
                 <div class="divider"></div>
 
                   <form action="#">
-                    <p>
+                    <p class="center">
                       <input type="checkbox" id="delivernot" />
-                      <label for="delivernot"></label>
+                      <label for="delivernot"><b><font size="+1" style="color:black">Pick-up order at MyTailor shop</font></b></label>
                     </p>
                   </form>
 
@@ -125,11 +125,11 @@
               
               <div class="container" style="margin-top:40px; margin-bottom:40px;">
                 <div class="input-field">
-                              <p><input class="center" placeholder="Full Name" id = "name" value = "" name = "name" type = "text" readonly></p>
-                              <input class="center" placeholder="Complete Address" id = "completeaddress" value = "" name = "completeaddress" type = "text" readonly>
-                              <input class="center" placeholder="Province - City - Brgy" id = "address" value = "" name = "address" type = "text" readonly>
-                              <input class="center" placeholder="Mobile Number" id = "mobilenumber" value = "" name = "mobilenumber" type = "text" readonly>
-                      </div>
+                  <p><input class="center" placeholder="Full Name" id = "name" value = "" name = "name" type = "text" readonly></p>
+                  <input class="center" placeholder="Complete Address" id = "completeaddress" value = "" name = "completeaddress" type = "text" readonly>
+                  <input class="center" placeholder="Province - City - Brgy" id = "address" value = "" name = "address" type = "text" readonly>
+                  <input class="center" placeholder="Mobile Number" id = "mobilenumber" value = "" name = "mobilenumber" type = "text" readonly>
+                </div>
               </div>
 
             </div>
@@ -163,29 +163,36 @@
 
               <div class="divider"></div>
               <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                <h6 class="col s6 blue-text"><b>Estimated Delivery</b></h6>
-                        <p class = "col s6 input-field" style="margin-top:-1px;">
-                          <b><input class="center" id = "deliverydate" value = "14 Mar - 15 Mar" name = "deliverydate" type = "text" readonly></b>
-                        </p>
-                    </div>
+                <p class="col s6"><b>Downpayment</b></p>
+                <p class = "col s6 input-field" style="margin-top:-1px;">
+                  <input class="center" id = "subtotal" value = "P 2,050.00" name = "subtotal" type = "text" readonly>
+                </p>
+              </div>
               <div class="divider"></div>
               <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                        <p class="col s6"><b>Subtotal</b></p>
-                        <p class = "col s6 input-field" style="margin-top:-1px;">
-                          <input class="center" id = "subtotal" value = "P 4,100.00" name = "subtotal" type = "text" readonly>
-                        </p>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                      <p class="col s6 red-text darken-1"><font size="+1"><b>TOTAL</b></font></p>
-                      <p class = "col s6 input-field" style="margin-top:-0px;">
-                        <b><input class="center red-text darken-1" id = "total" value = "P 4,100.00" name = "total" type = "text" readonly></b>
-                      </p>
-                  </div>
+                <h6 class="col s6 blue-text"><b>Estimated Delivery</b></h6>
+                  <p class = "col s6 input-field" style="margin-top:-1px;">
+                    <b><input class="center" id = "deliverydate" value = "14 Mar - 15 Mar" name = "deliverydate" type = "text" readonly></b>
+                  </p>
+              </div>
+              <div class="divider"></div>
+              <div class="row" style="margin-top:10px; margin-bottom:10px;">
+                <p class="col s6"><b>Subtotal</b></p>
+                <p class = "col s6 input-field" style="margin-top:-1px;">
+                  <input class="center" id = "subtotal" value = "P 4,100.00" name = "subtotal" type = "text" readonly>
+                </p>
+              </div>
+              <div class="divider"></div>
+              <div class="row" style="margin-top:10px; margin-bottom:10px;">
+                <p class="col s6 red-text darken-1"><font size="+1"><b>TOTAL</b></font></p>
+                <p class = "col s6 input-field" style="margin-top:-0px;">
+                  <b><input class="center red-text darken-1" id = "total" value = "P 4,100.00" name = "total" type = "text" readonly></b>
+                </p>
+              </div>
 
             </div>
 
-            <div class="btn red darken-1 white-text container" style="width:100%; height:40px; margin-top:20px;" href="#!"><i class="mdi-action-lock"></i>PLACE YOUR ORDER</div>
+            <div class="btn red darken-1 white-text container" style="width:100%; height:40px; margin-top:20px;" href="/"><i class="mdi-action-lock"></i>PLACE YOUR ORDER</div>
 
           </div>
 

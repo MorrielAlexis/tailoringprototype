@@ -11,15 +11,29 @@
 				<div class = "card-content">
 					<div class = "col s12">
 						<div class = "row">
+							<form action="#" class="container">
+								<label><font size="+1" color="teal">Proof of purchase</font></label>
+								<div class="file-field input-field">
+									<div class="btn teal">
+										<span style="padding:10px;">File</span>
+										<input type="file">
+									</div>
+									<div class="file-path-wrapper">
+										<input class="file-path validate" type="text">
+									</div>
+								</div>
+							</form>
+						<div class="container" style="margin-top:20px;">	
 							<div class = "col s12">
 								<div class = "input-field">
-									<input id = "trackno" value = "JOB001" name = "trackno" type = "text" readonly>
+									<input class="center" id = "trackno" value = "JOB001" name = "trackno" type = "text" readonly>
 									<label for = "trackno"> Tracking Code: </label>
 								</div>
 						    </div>
-						    <div class = "col s12">
+						</div>
+						    <div class = "col s12 center">
 						   
-						        <button  type = "submit" class="right waves-effect waves-light btn" style= "padding:3px" href="#!">Track</button>
+						        <button  type = "submit" class="teal waves-effect waves-light btn" style= "padding:5px" href="#!">Track</button>
 						    </div>
 						</div>
 					    
