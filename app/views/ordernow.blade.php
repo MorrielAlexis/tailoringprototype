@@ -234,20 +234,284 @@
           <img style="margin-top:10px;" class = "responsive-img" src="img/measure_body.jpg">
         </div>
         <div class="col s10">
-          <h5>Body measurements</h5>
+          <h5>Input a new set of measurements</h5>
           <p>Our measurement guide will help you take your body measurements with illustrated instructions.</p>
-          <a class="btn-flat hoverable teal white-text" href="#!">ADD YOUR BODY MEASUREMENTS</a>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col s2">
-          <img style="margin-top:10px;" class = "responsive-img" src="img/measure_shirt.jpg">
-        </div>
-        <div class="col s10">
-          <h5>Shirt measurements</h5>
-          <p>Follow our guide to measure your favorite shirt!</p>
-          <a class="btn-flat hoverable teal white-text" href="#!">ADD MEASUREMENTS FROM A SHIRT</a>
+          <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header pink accent-1"><i class="material-icons">filter_drama</i>MEASUREMENT FOR FEMALE</div>
+              <div class="collapsible-body">
+                <p class="pink-text accent-1"><b>For blazer, blouse, pants, and skirts</b></p>
+                <div class="row">
+                  <div class="col s6">
+                    <ul>
+                      <li>
+                        <div class="input-field pink-text accent-1">
+                          <input id="shoulder" type="text" class="validate">
+                          <label for="shoulder">Shoulder:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="frontfigure" type="text" class="validate">
+                          <label for="frontfigure">Front Figure:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="backfigure" type="text" class="validate">
+                          <label for="backfigure">Back Figure:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="length" type="text" class="validate">
+                          <label for="length">Length:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="bustline" type="text" class="validate">
+                          <label for="bustline">Bust Line:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="bustpoint" type="text" class="validate">
+                          <label for="bustpoint">Bust Point:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="bustdistance" type="text" class="validate">
+                          <label for="bustdistance">Bust Distance:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="wasitline" type="text" class="validate">
+                          <label for="wasitline">Waistline:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="firsthips" type="text" class="validate">
+                          <label for="firsthips">1st Hips:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="secondhips" type="text" class="validate">
+                          <label for="secondhips">2nd Hips:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="armhole" type="text" class="validate">
+                          <label for="armhole">Armholearmhole:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="circumference" type="text" class="validate">
+                          <label for="circumference">Circumference:</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col s6">
+                    <ul>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="sleeves" type="text" class="validate">
+                          <label for="sleeves">Short/Long Sleeves:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="cuffs" type="text" class="validate">
+                          <label for="cuffs">Cuffs:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="neckline" type="text" class="validate">
+                          <label for="neckline">Neckline:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="frontchest" type="text" class="validate">
+                          <label for="frontchest">Front Chest:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="backchest" type="text" class="validate">
+                          <label for="backchest">Back Chest:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="skirtlength" type="text" class="validate">
+                          <label for="skirtlength">Length of Skirt:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="pantslength" type="text" class="validate">
+                          <label for="pantslength">Length of Pants:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="hipsterwaist" type="text" class="validate">
+                          <label for="hipsterwaist">Waist (Hipster):</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="crotch" type="text" class="validate">
+                          <label for="crotch">Crotch:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="thigh" type="text" class="validate">
+                          <label for="thigh">Thigh:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="knee" type="text" class="validate">
+                          <label for="knee">Knee:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field pink-text lighten-4">
+                          <input id="bottom" type="text" class="validate">
+                          <label for="bottom">Bottom:</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header green accent-2"><i class="material-icons">place</i>MEASUREMENT FOR MALE</div>
+              <div class="collapsible-body">
+                <div class="row">
+                  <div class="col s6">
+                    <p class="green-text accent-2"><b>Polo</b></p>
+                    <ul>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="shoulder" type="text" class="validate">
+                          <label for="shoulder">Shoulder:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="bust" type="text" class="validate">
+                          <label for="bust">Bust:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="waist" type="text" class="validate">
+                          <label for="waist">Waist:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="hips" type="text" class="validate">
+                          <label for="hips">Hips:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="neck" type="text" class="validate">
+                          <label for="neck">Neck:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="length" type="text" class="validate">
+                          <label for="length">Length:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="sleeves" type="text" class="validate">
+                          <label for="sleeves">Sleeves:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="armhole" type="text" class="validate">
+                          <label for="armhole">Armhole:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="circumference" type="text" class="validate">
+                          <label for="circumference">Circumference:</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col s6">
+                  <p class="green-text accent-2"><b>Pants</b></p>
+                    <ul>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="crotch" type="text" class="validate">
+                          <label for="crotch">Crotch:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="thigh" type="text" class="validate">
+                          <label for="thigh">Thigh:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="knee" type="text" class="validate">
+                          <label for="knee">Knee:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="bottom" type="text" class="validate">
+                          <label for="bottom">Bottom:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="pantslength" type="text" class="validate">
+                          <label for="pantslength">Pants Length:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="waist" type="text" class="validate">
+                          <label for="waist">Waist:</label>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="input-field green-text accent-2">
+                          <input id="hip" type="text" class="validate">
+                          <label for="hip">Hip:</label>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <a class="btn-flat hoverable teal white-text right" href="#!">SUBMIT</a>
         </div>
       </div>
 
@@ -261,6 +525,14 @@
 @stop
 
 @section('scripts')  
-  
+    
+    <script>
+      $(document).ready(function(){
+        $('.collapsible').collapsible({
+          accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+        });
+      });
+
+    </script>
     
 @stop   

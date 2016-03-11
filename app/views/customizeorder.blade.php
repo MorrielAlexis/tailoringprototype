@@ -31,53 +31,79 @@
       <div class="collapsible-body white" style="padding:10px;">
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/bootcut-jeans.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/cargo.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/casual.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/chinos.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/cropped_ladies.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/flat_front.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/gauchos_ladies.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/leggings_ladies.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/palazzo_ladies.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/pencil_cut.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/pleated_pant.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/relaxed-cut-jeans.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/skinny-jeans-men.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/slim-cut.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/slim-fit.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/straight-cut-jeans.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/trouser_ladies.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/yoga_ladies.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>
@@ -101,53 +127,53 @@
       <div class="collapsible-body white" style="padding:10px;">
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>
@@ -171,53 +197,101 @@
       <div class="collapsible-body white" style="padding:10px;">
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-bay.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-berry.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-cinder.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-cordovan.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ebony-cinder.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>
         <div class="row">
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-scarlet.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ebony.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/citadel-wallnut.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-forest.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-gemstone.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-grape.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-hopscotch.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
           <div class="col s2">
-            <img class="responsive-img" src="imgSwatches/fabric-swatches.jpg">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-maroon.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-nickel.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-oxford.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-parchment.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-pewter.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-putty.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ruby.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-taupe.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-twilight.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
+            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
+          </div>
+          <div class="col s2">
+            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-yale.jpg">
             <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
           </div>
         </div>

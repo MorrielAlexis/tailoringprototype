@@ -177,13 +177,6 @@
               </div>
               <div class="divider"></div>
               <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                <p class="col s6"><b>Subtotal</b></p>
-                <p class = "col s6 input-field" style="margin-top:-1px;">
-                  <input class="center" id = "subtotal" value = "P 4,100.00" name = "subtotal" type = "text" readonly>
-                </p>
-              </div>
-              <div class="divider"></div>
-              <div class="row" style="margin-top:10px; margin-bottom:10px;">
                 <p class="col s6 red-text darken-1"><font size="+1"><b>TOTAL</b></font></p>
                 <p class = "col s6 input-field" style="margin-top:-0px;">
                   <b><input class="center red-text darken-1" id = "total" value = "P 4,100.00" name = "total" type = "text" readonly></b>
