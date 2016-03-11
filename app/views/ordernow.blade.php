@@ -238,7 +238,7 @@
           <p>Our measurement guide will help you take your body measurements with illustrated instructions.</p>
           <ul class="collapsible popout" data-collapsible="accordion">
             <li>
-              <div class="collapsible-header pink accent-1"><i class="material-icons">filter_drama</i>MEASUREMENT FOR FEMALE</div>
+              <div class="collapsible-header pink accent-1"><i class="mdi-maps-local-florist"></i>MEASUREMENT FOR FEMALE</div>
               <div class="collapsible-body">
                 <p class="pink-text accent-1"><b>For blazer, blouse, pants, and skirts</b></p>
                 <div class="row">
@@ -398,7 +398,7 @@
               </div>
             </li>
             <li>
-              <div class="collapsible-header green accent-2"><i class="material-icons">place</i>MEASUREMENT FOR MALE</div>
+              <div class="collapsible-header green accent-2"><i class="mdi-maps-directions-car"></i>MEASUREMENT FOR MALE</div>
               <div class="collapsible-body">
                 <div class="row">
                   <div class="col s6">
@@ -511,7 +511,7 @@
               </div>
             </li>
           </ul>
-          <a class="btn-flat hoverable teal white-text right" href="#!">SUBMIT</a>
+          <a class="btn-flat hoverable teal white-text right" style="margin-right:25px;" href="#!">SUBMIT</a>
         </div>
       </div>
 
