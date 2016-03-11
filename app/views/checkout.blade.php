@@ -29,9 +29,9 @@
                   <input id ="email" type="text" class="validate">
                   <label for="email">Enter your email address</label>
                 </div>
-                <form style="margin-left:20px;">
+                <form action = "#" style="margin-left:20px;">
                   <p>
-                      <input class="with-gap" name="guest" type="radio" id="guest" checked/>
+                      <input class="with-gap" name="member" type="radio" id="guest" checked = "checked"/>
                         <label for="guest">Continue without password</label>
                     </p>
                     <p>
