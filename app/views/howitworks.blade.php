@@ -28,7 +28,7 @@
                     <div class="container">
                       <p align="center">
                         <img style = "height:250px" src="img/two.jpg">
-                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="#!">Go to Designer</a>
+                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="{{URL::to('/customizeorder')}}">Go to Designer</a>
                             <p align="center">Design your garment in our 3D designer</p>
                         </p>
                     </div>

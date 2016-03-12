@@ -12,7 +12,7 @@
   <div class="section container white" style="width:90%; margin-top:20px; margin-bottom:20px;"> 
 
       <div>
-        <a style="margin-left:20px;" href="/"><i style="size:20px;" class="mdi-hardware-keyboard-arrow-left"></i>CONTINUE SHOPPING</a>
+        <a style="margin-left:20px;" href="{{URL::to('/homepage')}}"><i style="size:20px;" class="mdi-hardware-keyboard-arrow-left"></i>CONTINUE SHOPPING</a>
       </div>
 
     <div class="divider" style="margin-top:5px;"></div>
@@ -209,13 +209,41 @@
           </div>
 
         <div style="margin-top:-20px;">
-          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="checkout">PROCEED TO CHECKOUT</a>
+          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="{{URL::to('/checkout')}}">PROCEED TO CHECKOUT</a>
         </div>
       </div>
 
     </div>
 
   </div>
+
+  <!--MODAL FOR LOG IN-->
+
+      <div id="modalLogin" class="modal" style = "max-width:30%; max-height:70%;">
+        <div class="modal-content">
+          <h4>Log In</h4>
+          <div class="row">
+            <div class="input-field col s12">
+                <i class="mdi-social-person-outline prefix"></i>
+                <input class="validate" id="email" type="email">
+                <label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+            </div>
+          </div>
+
+              <div class="row">
+                  <div class="input-field col s12">
+                    <i class="mdi-action-lock-outline prefix"></i>
+                    <input id="password" type="password">
+                    <label for="password">Password</label>
+                </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cancel</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Log in</a>          
+        </div>
+      </div>
+
 
   <!--MODAL FOR MEASUREMENT-->
   <div id="modalMeas" class="modal modal-fixed-footer" style="width:700px">
@@ -232,7 +260,7 @@
         <div class="col s10">
           <h5>I want to use previously added measurements</h5>
           <p>To use your profile please log in</p>
-          <a class="btn-flat hoverable teal white-text" href="#!">LOG IN</a>
+          <a class="btn-flat hoverable teal white-text" href="#modalLogin">LOG IN</a>
         </div>
       </div>
 
@@ -519,6 +547,7 @@
             </li>
           </ul>
           <a class="btn-flat hoverable teal white-text right" style="margin-right:25px;" href="#!">SUBMIT</a>
+          <a class="btn-flat hoverable teal white-text right" style="margin-right:25px;" href="{{URL::to('/measuringTutorial')}}">GO TO TUTORIAL</a>
         </div>
       </div>
 

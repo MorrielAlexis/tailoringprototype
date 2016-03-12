@@ -185,7 +185,7 @@
 
             </div>
 
-            <div class="btn red darken-1 white-text container" style="width:100%; height:40px; margin-top:20px;" href="/"><i class="mdi-action-lock"></i>PLACE YOUR ORDER</div>
+            <div class="btn red darken-1 white-text container" style="width:100%; height:40px; margin-top:20px;" href="{{URL::to('/homepage')}}"><i class="mdi-action-lock"></i>PLACE YOUR ORDER</div>
 
           </div>
 

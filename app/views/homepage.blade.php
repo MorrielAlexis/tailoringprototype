@@ -49,10 +49,10 @@
     </div>
     <div class="row">
         <div class="col s6 center">
-            <div><a href="/garmentUniform" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO UNIFORMS</a></div>
+            <div><a href="{{URL::to('/garmentUniform')}}" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO UNIFORMS</a></div>
         </div>
         <div class="col s6 center">
-            <div><a href="/garmentGown" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO GOWNS</a></div>
+            <div><a href="{{URL::to('/garmentGown')}}" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO GOWNS</a></div>
         </div>
     </div>
 
@@ -79,10 +79,10 @@
     </div>
     <div class="row">
         <div class="col s6 center">
-            <div><a href="/garmentSuit" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO SUITS</a></div>
+            <div><a href="{{URL::to('/garmentSuit')}}" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO SUITS</a></div>
         </div>
         <div class="col s6 center">
-            <div><a href="/ordernow" class="container white" style="border:1px solid black; padding:10px;">ORDER YOURS HERE</a></div>
+            <div><a href="{{URL::to('/ordernow')}}" class="container white" style="border:1px solid black; padding:10px;">ORDER YOURS HERE</a></div>
         </div>
     </div>
 
@@ -108,10 +108,10 @@
     </div>
     <div class="row">
         <div class="col s6 center">
-            <div><a href="/orderTracking" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</a></div>
+            <div><a href="{{URL::to('/orderTracking')}}" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</a></div>
         </div>
         <div class="col s6 center">
-            <div><a href="/howitworks" class="container white" style="border:1px solid black; padding:10px;">MEASURE ON YOUR OWN</a></div>
+            <div><a href="{{URL::to('/howitworks')}}" class="container white" style="border:1px solid black; padding:10px;">MEASURE ON YOUR OWN</a></div>
         </div>
     </div>
     

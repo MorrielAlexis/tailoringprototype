@@ -20,7 +20,7 @@
 								<h4 style="font-family:'Playfair Display','Times';">Tops, Shirts & Blouses</h4>
 								<img class="responsive-img" src="img/altertop.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<form action="top">
@@ -68,7 +68,7 @@
 								<h4 style="font-family:'Playfair Display','Times';">Denim</h4>
 								<img class="responsive-img" src="img/alterdenim.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<div style="height:65px;"></div>								
@@ -102,7 +102,7 @@
 								<div style="height:40px;"></div>
 								<img class="responsive-img" src="img/alterdress.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<form action="top">
@@ -153,7 +153,7 @@
 								<h4 style="font-family:'Playfair Display','Times';">Pants & Bottoms</h4>
 								<img class="responsive-img" src="img/alterbottom.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<div style="height:120px;"></div>
@@ -182,7 +182,7 @@
 								<h4 style="font-family:'Playfair Display','Times';">Jackets & Coats</h4>
 								<img class="responsive-img" src="img/altercoat.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<div style="height:85px;"></div>
@@ -231,7 +231,7 @@
 								<h4 style="font-family:'Playfair Display','Times';">Others</h4>
 								<img class="responsive-img" src="img/dashboard.jpg">
 				            	<div style="height:20px;"></div>
-				            	<div><a class="green accent-2 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
+				            	<div><a class="green accent-2 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">SUBMIT</font></a></div>
 							</div>
 							<div class="col s6">
 								<div style="height:120px;"></div>
