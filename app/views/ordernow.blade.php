@@ -97,7 +97,7 @@
                 <div style="margin-right:10px;">
                   <center><a style="width:100%;" class="btn-flat disabled modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
 
-                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="/customizeorder">CUSTOMIZE ORDER</a></center>
+                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="{{URL::to('/customizeorder')}}">CUSTOMIZE ORDER</a></center>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@
                 <div style="margin-right:10px;">
                   <center><a style="width:100%;" class="btn-flat disabled modal-trigger hoverable teal white-text" href="#modalMeas">MEASUREMENT</a></center>
 
-                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="/customizeorder">CUSTOMIZE ORDER</a></center>
+                  <center><a style="width:100%; margin-top:10px;" class="btn-flat modal-trigger hoverable teal white-text" href="{{URL::to('/customizeorder')}}">CUSTOMIZE ORDER</a></center>
                 </div>
               </div>
             </div>
@@ -209,7 +209,7 @@
           </div>
 
         <div style="margin-top:-20px;">
-          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="/checkout">PROCEED TO CHECKOUT</a>
+          <a class="btn" style="width:90%; background:#e53935; height:60px; padding:10px;" href="checkout">PROCEED TO CHECKOUT</a>
         </div>
       </div>
 
