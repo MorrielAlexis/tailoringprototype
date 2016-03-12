@@ -5,6 +5,7 @@
 	<div class = "section">
 			
       <center><h1 style="color:white; font-family:'Playfair Display','Times';">Order Tracking</h1></center>
+      <div class="divider container" style="margin-bottom:25px;"></div>
 
 		<div class = "container" style="width:75%">
 			<div class="row">

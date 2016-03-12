@@ -53,7 +53,7 @@
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta">
-                  <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                  <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
                     <li><a href="/garmentUniform">UNIFORMS</a></li>
                     <li><a href="/garmentGown">GOWNS</a></li>
@@ -67,7 +67,7 @@
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/alteration"><b>ALTERATION</b></a></li>
               </ul>
             </div>
           </nav>

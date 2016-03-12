@@ -4,8 +4,10 @@
 
   <div class="section white"> 
 
-    <div style="height:150px; background-image:url(img/admin-back.jpg)">
-      <center><h1 style=" margin-top: -15px;color:white">How It Works</h1></center>
+    <div style="height:250px; margin-top: -15px; background-image:url(img/gradient.jpg)">
+      <div style="height:20px;"></div>
+      <center><h1 style="color:white; font-family:'Playfair Display','Times';">How It Works</h1></center>
+      <div class="container divider"></div>
       <center><h4 style="color:white;">Three easy steps to make custom-fit garments</h4></center>
     </div>
 

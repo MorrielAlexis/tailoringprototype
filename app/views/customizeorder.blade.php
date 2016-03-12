@@ -3,9 +3,9 @@
 
 @section('content')
 
-<div class="section white container" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
+<div class="section container" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
   
-  <center><h3 style="color:white; font-family:'Playfair Display','Times';" class="teal-text accent-4">Customize your order</h3></center>
+  <center><h2 style="color:white; font-family:'Playfair Display','Times';">Customize your order</h2></center>
   <div class="divider" style="margin-bottom:15px;"></div>
 
 </div>
@@ -109,7 +109,7 @@
         </div>
       </div>
     </li>
-    <li>
+    <li style="margin-top:20px;">
      <div class="collapsible-header" style="padding-top:20px;">
         <div class="row">
           <div class="col s4">
@@ -179,7 +179,7 @@
         </div>
       </div>
     </li>
-    <li>
+    <li style="margin-top:20px;">
       <div class="collapsible-header" style="padding-top:20px;">
         <div class="row">
           <div class="col s4">

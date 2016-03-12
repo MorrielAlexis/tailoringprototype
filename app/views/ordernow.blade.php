@@ -2,6 +2,13 @@
 
 @section('content')
 
+<div class="section container" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
+  
+  <center><h1 style="color:white; font-family:'Playfair Display','Times';">Order Now</h1></center>
+  <div class="divider" style="margin-bottom:15px;"></div>
+
+</div>
+
   <div class="section container white" style="width:90%; margin-top:20px; margin-bottom:20px;"> 
 
       <div>

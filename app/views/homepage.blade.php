@@ -29,24 +29,30 @@
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">Custom Uniform</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/uniform3.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 From different designs and options to choose from,
                 personalize uniforms for an exclusive style and
                 distinction.
             </p>
-            <button href="/garmentUniform" class="container white" style="border:1px solid black; padding:10px;">CONFIGURE UNIFORMS NOW</button>
         </div>
         
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">Custom Gown</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/gowns.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 Be the eye-catcher in special occasions with custom
                 designed gowns and dresses. Choose from a variety
                 of fabrics, colors and designs for a truly unique
                 style!
             </p>
-            <button href="/garmentGown" class="container white" style="border:1px solid black; padding:10px;">CONFIGURE GOWNS NOW</button>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col s6 center">
+            <div><a href="/garmentUniform" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO UNIFORMS</a></div>
+        </div>
+        <div class="col s6 center">
+            <div><a href="/garmentGown" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO GOWNS</a></div>
         </div>
     </div>
 
@@ -54,23 +60,29 @@
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">Custom Uniform</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/suits.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 Always look the best in a custom suit that
                 will fit you perfectly. Our hand tailored
                 suits come in a collection of high quality
                 fabrics and materials that you can choose from.
             </p>
-            <button href="/garmentSuit" class="container white" style="border:1px solid black; padding:10px;">CONFIGURE SUITS NOW</button>
         </div>
         
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">Order Now</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/suit.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 Want the best tailoring experience ever?
                 Take the chance and work with us!
             </p>
-            <button href="/ordernow" class="container white" style="border:1px solid black; padding:10px;">ORDER YOURS HERE</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s6 center">
+            <div><a href="/garmentSuit" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO SUITS</a></div>
+        </div>
+        <div class="col s6 center">
+            <div><a href="/ordernow" class="container white" style="border:1px solid black; padding:10px;">ORDER YOURS HERE</a></div>
         </div>
     </div>
 
@@ -78,22 +90,28 @@
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">Order Tracking</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/ordertrack1.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 Experience made more personal with Order Tracking.
                 Monitor your orders' progress here!
             </p>
-            <button href="/orderTracking" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</button>
         </div>
         
         <div class="col s6 center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">How It Works</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/howitwork.jpg">
-            <p class="center-align white-text" style="font-size:17px;">
+            <p class="center-align white-text" style="font-size:20px;">
                 Easy steps to follow for a perfect fit.
                 In just a couple of minutes, the measurements
                 for perfect fitting will be ready for the garments! 
             </p>
-            <button href="/howitworks" class="container white" style="border:1px solid black; padding:10px;">MEASURE ON YOUR OWN</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s6 center">
+            <div><a href="/orderTracking" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</a></div>
+        </div>
+        <div class="col s6 center">
+            <div><a href="/howitworks" class="container white" style="border:1px solid black; padding:10px;">MEASURE ON YOUR OWN</a></div>
         </div>
     </div>
     

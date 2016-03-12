@@ -18,17 +18,17 @@
 
 				<div class="col s4 center" style="padding:20px;">
 		            <img class = "responsive-img" src="imgUniform/uni2.jpg">
-	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+	            	<div><a class="red darken-1 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 
 				<div class="col s4 center" style="padding:30px;">
 		            <img class = "responsive-img" src="imgUniform/uni4.jpg">
-	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+	            	<div><a class="red darken-1 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 
 				<div class="col s4 center" style="padding:20px;">
 		            <img class = "responsive-img" src="imgUniform/uni8.jpg">
-	            	<button class="red darken-1 container" href="#!" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></button>
+	            	<div><a class="red darken-1 container" href="/ordernow" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 
 			</div>
