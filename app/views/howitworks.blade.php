@@ -16,7 +16,7 @@
                     <div class="container">
                        <p align="center">
                         <img style = "height:250px" src="img/one1.jpg">
-                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="/garmentUniform">Go to Gallery</a>
+                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="{{URL::to('/garmentUniform')}}">Go to Gallery</a>
                             <p align="center">Select your desired garments from the gallery for tailoring or alteration</p>
                         </p>
                     </div>
@@ -36,7 +36,7 @@
                     <div class="container">
                 <p align="center">
                          <img style = "height:250px" src="img/three.jpg">
-                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="/measuringTutorial">Go to Measurements</a>
+                          <a class="btn-flat" style= "background:#4db6ac; padding:4px; color:#fafafa" href="{{URL::to('/measuringTutorial')}}">Go to Measurements</a>
                             <p align="center">Add measurements with the help of our video and picture tutorial</p>
                         </p>
                     </div>

@@ -55,17 +55,17 @@
                 <li class="basta">
                   <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
-                    <li><a href="/garmentUniform">UNIFORMS</a></li>
-                    <li><a href="/garmentGown">GOWNS</a></li>
-                    <li><a href="/garmentSuit">SUITS</a></li>
+                    <li><a href="{{URL::to('/garmentUniform')}}">UNIFORMS</a></li>
+                    <li><a href="{{URL::to('/garmentGown')}}">GOWNS</a></li>
+                    <li><a href="{{URL::to('/garmentSuit')}}">SUITS</a></li>
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/ordernow')}}"><b>ORDER NOW</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/orderTracking')}}"><b>ORDER TRACKING</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/howitworks')}}"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
               </ul>
@@ -260,7 +260,7 @@
               </div>
               <div class="footer-copyright">
                 <div class="container">
-                Copyright © My Store. All rights reserved.
+                Copyright © myTailor. All rights reserved.
                 </div>
               </div>
             </div>
