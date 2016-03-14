@@ -67,7 +67,7 @@
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/howitworks')}}"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/alteration"><b>ALTERATION</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/alteration')}}"><b>ALTERATION</b></a></li>
               </ul>
             </div>
           </nav>
