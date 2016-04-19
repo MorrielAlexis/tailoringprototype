@@ -34,8 +34,8 @@
             <div class="nav-wrapper">
               <a style="margin-left:30px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
               <ul class="right hide-on-med-and-down">
-                <li class="basta"><a style="padding:0; color: white" class="basta waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
-                <li class="basta"><a style="padding:0; color: white" class="basta dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
+                <li class="option"><a style="padding:0; color: white" class="option waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
+                <li class="option"><a style="padding:0; color: white" class="option dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
                 <ul id="down" class="dropdown-content">
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupInd">INDIVIDUAL</a></li>
                   <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupCom">COMPANY</a></li>
@@ -49,11 +49,11 @@
           <nav>
               <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul style="margin-left:130px;">
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
+              <ul style="margin-left:50px;">
+                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta">
-                  <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <li class="option">
+                  <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat option" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
                     <li><a href="/garmentUniform">UNIFORMS</a></li>
                     <li><a href="/garmentGown">GOWNS</a></li>
@@ -61,15 +61,16 @@
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
+                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
               </ul>
             </div>
+            
           </nav>
         </div>
       </nav>

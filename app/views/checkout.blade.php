@@ -87,6 +87,16 @@
                   <input id ="number" type="text" class="validate">
                   <label for="number">Mobile Number</label>
                 </div>
+                <form action="#">
+                  <p>
+                    <input type="checkbox" id="employee" />
+                    <label for="employee">If this order is under a transaction from a company please indicate the name below before proceeding.</label>
+                  </p>
+                </form>
+                <div class="input-field">
+                  <input disabled id ="company" type="text" class="validate">
+                  <label for="company">Company Name</label>
+                </div>
 
                 <div class="container">
                   <center><h5 style="color:#e53935">Estimated Delivery</h5></center>
