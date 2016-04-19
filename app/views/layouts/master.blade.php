@@ -45,9 +45,15 @@
           </nav>
         </div>
 
+        <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+          <a class="btn-floating btn-large red accent-3 tooltipped" data-position="left" data-delay="50" data-tooltip="Hi, Honey May">
+            <i class="large material-icons">perm_identity</i>
+          </a>
+        </div>
+
         <div class="navbar teal">
           <nav>
-              <div style="border-bottom:1px solid grey" class="nav-wrapper">
+            <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
               <ul style="margin-left:50px;">
                 <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
@@ -291,12 +297,17 @@
       <script type="text/javascript">
 
       $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal-trigger').leanModal();
+      });
 
       </script>
 
+      <script>
+       $(document).ready(function(){
+        $('.tooltipped').tooltip({delay: 50});
+      });
+      </script>
         @yield('scripts')
 
 
