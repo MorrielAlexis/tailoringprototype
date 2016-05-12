@@ -7,7 +7,7 @@
     <div align = "center">
       <div style= "height:10px"></div>
            <div class="container" style="margin:80px">
-            <h3 style="color:#00695c;">Men's Shirt Measurement Tutorial</h3>
+            <h3 style="color:white;">Men's Shirt Measurement Tutorial</h3>
           </div>
     </div>
 
@@ -31,7 +31,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/9ZKLgmnnNwI" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe width="540" height="200" src="http://www.youtube.com/embed/9ZKLgmnnNwI" frameborder="0" allowfullscreen></iframe>-->
+            <iframe width="540" height="200" src="tutorial/Neck_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
     <center>
@@ -51,7 +52,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/9dDa8TePCR8" frameborder="0" allowfullscreen></iframe>
+          <!--  <iframe width="540" height="200" src="http://www.youtube.com/embed/9dDa8TePCR8" frameborder="0" allowfullscreen></iframe>-->
+          <iframe width="540" height="200" src="tutorial/Chest_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -77,7 +79,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/6qHZNR6if1Y" frameborder="0" allowfullscreen></iframe>
+          <!--  <iframe width="540" height="200" src="http://www.youtube.com/embed/6qHZNR6if1Y" frameborder="0" allowfullscreen></iframe>-->
+          <iframe width="540" height="200" src="tutorial/ArmLength_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -98,7 +101,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/6wyy_j6VHzw" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/6wyy_j6VHzw" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/ShoulderWidth_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -120,7 +124,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/H4g0kZk1hpE" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/H4g0kZk1hpE" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/ShortSleeve_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -141,7 +146,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/RoA_Rusd4Bg" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/RoA_Rusd4Bg" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/Biceps_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -162,7 +168,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/JXsmMN8S12k" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe width="540" height="200" src="http://www.youtube.com/embed/JXsmMN8S12k" frameborder="0" allowfullscreen></iframe>-->
+            <iframe width="540" height="200" src="tutorial/ShirtPiquet_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -184,7 +191,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/SK2fbnCKVJ0" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/SK2fbnCKVJ0" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/Waist_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
      <center>
@@ -205,7 +213,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/S4QR_1zeT-I" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/S4QR_1zeT-I" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/Wrist_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
    <center>

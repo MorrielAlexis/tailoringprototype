@@ -32,7 +32,7 @@
         <div class="navbar teal">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <a style="margin-left:30px;" href="/" class="brand-logo"><i class="tiny material-icons">favorite</i></a>
+              <img src="../img/logo.jpg"  alt="" class="circle responsive-img valign profile-image center" style="height:90px; width:100px; margin-top:5px; margin-left:30px">
               <ul class="right hide-on-med-and-down">
                 <li class="option"><a style="padding:0; color: white" class="option waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
                 <li class="option"><a style="padding:0; color: white" class="option dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
@@ -67,25 +67,25 @@
           <nav>
             <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul style="margin-left:50px;">
-                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
+              <ul style="margin-left:125px;">
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="option">
-                  <a style="color: white; padding-left:10px; padding-right:10px; margin:0px;" class="dropdown-button btn-flat option" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <li class="basta">
+                  <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
-                    <li><a href="/garmentUniform">UNIFORMS</a></li>
-                    <li><a href="/garmentGown">GOWNS</a></li>
-                    <li><a href="/garmentSuit">SUITS</a></li>
+                    <li><a href="{{URL::to('/garmentUniform')}}">UNIFORMS</a></li>
+                    <li><a href="{{URL::to('/garmentGown')}}">GOWNS</a></li>
+                    <li><a href="{{URL::to('/garmentSuit')}}">SUITS</a></li>
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/ordernow"><b>ORDER NOW</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/ordernow')}}"><b>ORDER NOW</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/orderTracking"><b>ORDER TRACKING</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/orderTracking')}}"><b>ORDER TRACKING</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="/howitworks"><b>HOW IT WORKS</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/howitworks')}}"><b>HOW IT WORKS</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="option"><a class="btn-flat option" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="#!"><b>ALTERATION</b></a></li>
+                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/alteration')}}"><b>ALTERATION</b></a></li>
               </ul>
             </div>
             
@@ -279,7 +279,7 @@
               </div>
               <div class="footer-copyright">
                 <div class="container">
-                Copyright © My Store. All rights reserved.
+                Copyright © myTailor. All rights reserved.
                 </div>
               </div>
             </div>

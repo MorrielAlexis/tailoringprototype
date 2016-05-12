@@ -7,7 +7,7 @@
     <div align = "center">
       <div style= "height:10px"></div>
            <div class="container" style="margin:80px">
-            <h3 style="color:#00695c;">Men's Pants Measurement Tutorial</h3>
+            <h3 style="color:white;">Men's Pants Measurement Tutorial</h3>
           </div>
     </div>
 
@@ -29,7 +29,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/1nbJmMHgHQo" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe width="540" height="200" src="http://www.youtube.com/embed/1nbJmMHgHQo" frameborder="0" allowfullscreen></iframe>-->
+            <iframe width="540" height="200" src="tutorial/Seat_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
     <center>
@@ -52,7 +53,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/Spk9gp-XqDQ" frameborder="0" allowfullscreen></iframe>
+            <!--<iframe width="540" height="200" src="http://www.youtube.com/embed/Spk9gp-XqDQ" frameborder="0" allowfullscreen></iframe>-->
+            <iframe width="540" height="200" src="tutorial/Waist_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
     <center>
@@ -74,7 +76,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/OLgQbBUXyII" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/OLgQbBUXyII" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/Inseam_Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
     <center>
@@ -96,7 +99,8 @@
     </p>
     <div class="container">
         <div class="video-container">
-            <iframe width="540" height="200" src="http://www.youtube.com/embed/UosmnJpqH10" frameborder="0" allowfullscreen></iframe>
+           <!-- <iframe width="540" height="200" src="http://www.youtube.com/embed/UosmnJpqH10" frameborder="0" allowfullscreen></iframe>-->
+           <iframe width="540" height="200" src="tutorial/Inseam Short-Men.mp4" frameborder="0" allowfullscreen></iframe>
         </div>    
     </div>
   <center>

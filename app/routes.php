@@ -49,3 +49,5 @@ Route::get('/womenPantsAndSkirtTutorial', 'WomenPantsAndSkirtTutorialController@
 
 Route::get('/womenFullProfileTutorial', 'WomenFullProfileTutorialController@womenFullProfile');
 
+Route::get('/alteration', 'AlterationController@alter');
+

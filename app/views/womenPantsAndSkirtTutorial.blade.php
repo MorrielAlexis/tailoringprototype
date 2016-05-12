@@ -7,7 +7,7 @@
     <div align = "center">
       <div style= "height:10px"></div>
            <div class="container" style="margin:80px">
-            <h3 style="color:#00695c;">Women's Pants and Skirt Measurement Tutorial</h3>
+            <h3 style="color:white;">Women's Pants and Skirt Measurement Tutorial</h3>
           </div>
     </div>
 

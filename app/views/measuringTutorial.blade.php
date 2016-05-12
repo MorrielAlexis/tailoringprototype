@@ -28,7 +28,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/menShirtTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/menShirtTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -47,7 +47,7 @@
            					</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/menPantsTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/menPantsTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -66,7 +66,7 @@
            					</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/menFullProfileTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/menFullProfileTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -92,7 +92,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/womenShirtTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/womenShirtTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -111,7 +111,7 @@
              				</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/womenPantsAndSkirtTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/womenPantsAndSkirtTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
@@ -130,7 +130,7 @@
            				 	</p>
            				 </div>
             			<div class="card-action">
-              			<a href="/womenFullProfileTutorial">Proceed to tutorial</a>
+              			<a href="{{URL::to('/womenFullProfileTutorial')}}">Proceed to tutorial</a>
            				 </div>
          			 </div>
       			</div>
