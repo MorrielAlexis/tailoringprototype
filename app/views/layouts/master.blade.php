@@ -45,10 +45,22 @@
           </nav>
         </div>
 
-        <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
+        <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
           <a class="btn-floating btn-large red accent-3 tooltipped" data-position="left" data-delay="50" data-tooltip="Hi, Honey May">
-            <i class="large material-icons">perm_identity</i>
+            <i class="large material-icons" style="font-size:30px;">perm_identity</i>
           </a>
+          <ul>
+            <li>
+              <a class="btn-floating blue tooltipped" data-position="left" data-delay="50" data-tooltip="Logout">
+              <i class="tiny material-icons" style="font-size:25px; margin-top:-7px;">input</i>
+              </a>
+            </li>
+            <li>
+              <a class="btn-floating green tooltipped" data-position="left" data-delay="50" data-tooltip="Settings">
+              <i class="tiny material-icons" style="font-size:25px; margin-top:-7px;">settings</i>
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div class="navbar teal">
