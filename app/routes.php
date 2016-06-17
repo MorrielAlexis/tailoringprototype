@@ -51,3 +51,7 @@ Route::get('/womenFullProfileTutorial', 'WomenFullProfileTutorialController@wome
 
 Route::get('/alteration', 'AlterationController@alter');
 
+Route::get('/customerprofile-individual', 'CustomerProfileController@indiv');
+Route::get('/customerprofile-company', 'CustomerProfileController@comp');
+
+

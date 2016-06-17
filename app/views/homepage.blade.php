@@ -69,11 +69,11 @@
         </div>
         
         <div class="col s6 center">
-            <h2 class="white-text" style="font-family:'Playfair Display','Times';">Order Now</h2>
-            <img style="width:90%; height:250px;" class="responsive-img" src="img/suit.jpg">
+            <h2 class="white-text" style="font-family:'Playfair Display','Times';">Order Tracking</h2>
+            <img style="width:90%; height:250px;" class="responsive-img" src="img/ordertrack1.jpg">
             <p class="center-align white-text" style="font-size:20px;">
-                Want the best tailoring experience ever?
-                Take the chance and work with us!
+                Experience made more personal with Order Tracking.
+                Monitor your orders' progress here!
             </p>
         </div>
     </div>
@@ -82,21 +82,12 @@
             <div><a href="{{URL::to('/garmentSuit')}}" class="container white" style="border:1px solid black; padding:10px;">PROCEED TO SUITS</a></div>
         </div>
         <div class="col s6 center">
-            <div><a href="{{URL::to('/ordernow')}}" class="container white" style="border:1px solid black; padding:10px;">ORDER YOURS HERE</a></div>
+            <div><a href="{{URL::to('/orderTracking')}}" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</a></div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col s6 center">
-            <h2 class="white-text" style="font-family:'Playfair Display','Times';">Order Tracking</h2>
-            <img style="width:90%; height:250px;" class="responsive-img" src="img/ordertrack1.jpg">
-            <p class="center-align white-text" style="font-size:20px;">
-                Experience made more personal with Order Tracking.
-                Monitor your orders' progress here!
-            </p>
-        </div>
-        
-        <div class="col s6 center">
+    <div class="row container">        
+        <div class="container center">
             <h2 class="white-text" style="font-family:'Playfair Display','Times';">How It Works</h2>
             <img style="width:90%; height:250px;" class="responsive-img" src="img/howitwork.jpg">
             <p class="center-align white-text" style="font-size:20px;">
@@ -106,11 +97,8 @@
             </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col s6 center">
-            <div><a href="{{URL::to('/orderTracking')}}" class="container white" style="border:1px solid black; padding:10px;">TRACK YOURS HERE</a></div>
-        </div>
-        <div class="col s6 center">
+    <div class="row container">
+        <div class="container center">
             <div><a href="{{URL::to('/howitworks')}}" class="container white" style="border:1px solid black; padding:10px;">MEASURE ON YOUR OWN</a></div>
         </div>
     </div>

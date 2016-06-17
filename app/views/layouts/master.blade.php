@@ -32,13 +32,13 @@
         <div class="navbar teal">
           <nav style="height:40px">
             <div class="nav-wrapper">
-              <img src="../img/logo.jpg"  alt="" class="circle responsive-img valign profile-image center" style="height:90px; width:100px; margin-top:5px; margin-left:30px">
-              <ul class="right hide-on-med-and-down">
-                <li class="option"><a style="padding:0; color: white" class="option waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
-                <li class="option"><a style="padding:0; color: white" class="option dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
+              <img src="../img/logo.jpg"  alt="" class="circle responsive-img valign profile-image center" style="height:90px; width:100px; margin-top:5px; margin-left:30px;">
+              <ul class="right hide-on-med-and-down" style="margin-right:20px;">
+                <li><a style="margin:0; padding-left:10px; padding-right:10px; color: white" class="waves-effect waves-light btn-flat modal-trigger" href="#modalLogin"><b>Login</b></a></li>
+                <li><a style="margin:0; padding-left:10px; padding-right:10px; color: white" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="down"><b>Sign Up</b></a>
                 <ul id="down" class="dropdown-content">
-                  <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupInd">INDIVIDUAL</a></li>
-                  <li><a class="waves-effect waves-light btn-flat modal-trigger" href="#modalSignupCom">COMPANY</a></li>
+                  <li><a class="modal-trigger" href="#modalSignupInd">INDIVIDUAL</a></li>
+                  <li><a class="modal-trigger" href="#modalSignupCom">COMPANY</a></li>
                 </ul>
               </ul>
             </div>
@@ -47,31 +47,37 @@
 
         <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
           <a class="btn-floating btn-large red accent-3 tooltipped" data-position="left" data-delay="50" data-tooltip="Hi, Honey May">
-            <i class="large material-icons" style="font-size:30px;">perm_identity</i>
+            <i class="large mdi-action-perm-identity" style="font-size:30px;"></i>
           </a>
           <ul>
             <li>
               <a class="btn-floating blue tooltipped" data-position="left" data-delay="50" data-tooltip="Logout">
-              <i class="tiny material-icons" style="font-size:25px; margin-top:-7px;">input</i>
+              <i class="tiny mdi-action-input" style="font-size:25px;"></i>
               </a>
             </li>
             <li>
-              <a class="btn-floating green tooltipped" data-position="left" data-delay="50" data-tooltip="Settings">
-              <i class="tiny material-icons" style="font-size:25px; margin-top:-7px;">settings</i>
+              <a class="btn-floating purple tooltipped" href="{{URL::to('/ordernow')}}" data-position="left" data-delay="50" data-tooltip="Orders">
+              <i class="tiny mdi-action-shopping-basket" style="font-size:25px;"></i>
+              </a>
+            </li>
+            <li>
+              <a class="btn-floating yellow tooltipped" href="{{URL::to('/customerprofile')}}" data-position="left" data-delay="50" data-tooltip="Profile">
+              <i class="tiny mdi-action-info-outline" style="font-size:25px;"></i>
               </a>
             </li>
           </ul>
         </div>
 
+
         <div class="navbar teal">
           <nav>
             <div style="border-bottom:1px solid grey" class="nav-wrapper">
 
-              <ul style="margin-left:125px;">
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
+              <ul class="container">
+                <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white;" href="/"><b>HOME</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta">
-                  <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat basta" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
+                <li>
+                  <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
                     <li><a href="{{URL::to('/garmentUniform')}}">UNIFORMS</a></li>
                     <li><a href="{{URL::to('/garmentGown')}}">GOWNS</a></li>
@@ -79,20 +85,27 @@
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/ordernow')}}"><b>ORDER NOW</b></a></li>
+                <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/alteration')}}"><b>ALTERATION</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/orderTracking')}}"><b>ORDER TRACKING</b></a></li>
+                <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/orderTracking')}}"><b>ORDER TRACKING</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/howitworks')}}"><b>HOW IT WORKS</b></a></li>
-                <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li class="basta"><a class="btn-flat basta" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/alteration')}}"><b>ALTERATION</b></a></li>
+                <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/howitworks')}}"><b>HOW IT WORKS</b></a></li>                
+              </ul>
+              <ul id="shoppingcart" class="right" style="margin-right:-140px; margin-top:10px;">
+                <li><a href="{{URL::to('/ordernow')}}" style="margin:0; padding:0;" class="btn-flat white-text">Shopping Cart</a></li>
+                <li><a href="{{URL::to('/ordernow')}}" style="margin:0; padding:0;" class="btn-flat"><i class="white-text mdi-action-shopping-cart" style="font-size:30px; margin-top:-15px;"></i></a></li>
               </ul>
             </div>
-            
           </nav>
         </div>
       </nav>
 
+      <!--
+      <div class="right">
+        <a href="{{URL::to('/ordernow')}}" class="btn-flat white-text" style="margin-right:-50px">Shopping Cart</a>
+        <a href="{{URL::to('/ordernow')}}" class="btn-flat"><i class="white-text mdi-action-shopping-cart" style="font-size:30px;"></i></a>
+      </div>
+      -->
 
     
       <!--MODAL FOR LOG IN-->
@@ -127,11 +140,6 @@
         <div class="modal-content">
           <div class = "col s12">
             <center><h4>Individual Customer</h4></center>
-          </div>
-
-          <div class="input-field">                 
-            <input value = "Indi001" id="addIndiID" name="addIndiID" type="text" class="validate" readonly>
-            <label for="indi_id">Individual ID: </label>
           </div>
 
           <div class="input-field">
@@ -175,11 +183,6 @@
         <div class="modal-content">
           <div class = "col s12">
             <center><h4>Company Customer</h4></center>
-          </div>
-
-          <div class="input-field">                 
-            <input value="Com001" id="addComID" name="addComID" type="text" class="validate" readonly>
-            <label for="company_id">Company ID: </label>
           </div>
 
           <div class="input-field">
@@ -320,6 +323,12 @@
         $('.tooltipped').tooltip({delay: 50});
       });
       </script>
+
+      <script>
+        $('.fixed-action-btn').openFAB();
+        $('.fixed-action-btn').closeFAB();
+      </script>
+
         @yield('scripts')
 
 

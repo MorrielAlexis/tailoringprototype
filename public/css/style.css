@@ -19,6 +19,10 @@ nav{
 
 }
 
+#shoppingcart :hover{
+	background: none;
+}
+
 <!--ORDER TRACKING-->
 #progress {
  width: 500px;   
@@ -38,16 +42,11 @@ nav{
  width: 60%;
 }
 
-.option :hover{
-	background: #00bfa5;
-	background-color: #00bfa5;
-}
-
-#downdown{
-	background-color:white;
-}
-
 #downdown :hover{
+	background: lavender;
+}
+
+#down :hover{
 	background: lavender;
 }
 

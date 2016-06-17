@@ -20,7 +20,7 @@
 
         <div class="container">
           <div style="padding:5px; border: 1px solid #00bfa5; margin-bottom:20px;">
-            <h6 style="margin-left:20px;"><b>Login or Checkout as guest</b></h6>
+            <h6 style="margin-left:20px;"><b>Login</b></h6>
             <div class="divider"></div>
             
             <div class="container" style="margin-top:40px; margin-bottom:40px;">
