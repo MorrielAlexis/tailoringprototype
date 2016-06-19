@@ -2,8 +2,13 @@
 
 class AlterationController extends BaseController{
 	
-	public function alter()
+	public function serv()
 	{
-		return View::make('alteration');
+		return View::make('alterationservices');
+	}
+
+		public function transac()
+	{
+		return View::make('alterationtransaction');
 	}
 }

@@ -85,7 +85,13 @@
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
-                <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/alteration')}}"><b>ALTERATION</b></a></li>
+                <li>
+                  <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="alter"><b>ALTERATION</b></a>
+                  <ul id="alter" class="dropdown-content">
+                    <li><a href="{{URL::to('/alterationservices')}}">SERVICES</a></li>
+                    <li><a href="{{URL::to('/alterationtransaction')}}">TRANSACTION</a></li>
+                  </ul>
+                </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
                 <li><a class="btn-flat" style="padding-left:10px; padding-right:10px; margin:0px; color: white" href="{{URL::to('/orderTracking')}}"><b>ORDER TRACKING</b></a></li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
@@ -235,7 +241,7 @@
         <div style="height:40px;"></div>
         @yield('content')
 
-        <footer>
+        <footer class="fixed-footer">
           <div style="background-color:#cccccc" class="page-footer">
               <div class="container">
                 <div class="row">

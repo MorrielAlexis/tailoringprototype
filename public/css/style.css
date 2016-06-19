@@ -50,6 +50,10 @@ nav{
 	background: lavender;
 }
 
+#alter :hover{
+	background: lavender;
+}
+
 #bs{
 	 background-size: cover;
 	 background-repeat: no-repeat;

@@ -67,18 +67,6 @@
   		</div>  		
   	</div>
 
-    <!--PACKAGES-->
-    <div class="container" style=" margin-top:40px;width:97%; border:1px solid #757575;">
-      <h5 style="color:#757575; margin-left:15px;">Company Packages</h5>
-      <div class="divider" style="margin-top:-10px; margin-bottom:20px;"></div>
-      
-      
-
-      <div style="margin:10px;">
-        <a class="btn-flat blue accent-2">Create a new package</a>
-      </div>
-    </div>
-
     <!--EMPLOYEE PROFILES-->
   	<div class="container" style=" margin-top:40px;width:97%; border:1px solid #757575;">
   		<h5 style="color:#757575; margin-left:15px;">Employees Profile</h5>
