@@ -2,8 +2,13 @@
 
 class GarmentUniformController extends BaseController{
 	
-	public function uniform()
+	public function male()
 	{
-		return View::make('garmentUniform');
+		return View::make('garmentUniformMale');
+	}
+
+	public function female()
+	{
+		return View::make('garmentUniformFemale');
 	}
 }

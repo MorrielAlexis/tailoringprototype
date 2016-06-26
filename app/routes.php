@@ -30,8 +30,9 @@ Route::get('/orderTracking', 'OrderTrackingController@order');
 
 Route::get('/howitworks', 'HowItWorksController@how');
 
-Route::get('/garmentUniform', 'GarmentUniformController@uniform');
+Route::get('/garmentUniformMale', 'GarmentUniformController@male');
 
+Route::get('/garmentUniformFemale', 'GarmentUniformController@female');
 
 Route::get('/garmentGown', 'GarmentGownController@gown');
 
@@ -55,4 +56,5 @@ Route::get('/alterationtransaction', 'AlterationController@transac');
 Route::get('/customerprofile-individual', 'CustomerProfileController@indiv');
 Route::get('/customerprofile-company', 'CustomerProfileController@comp');
 
+Route::get('/measurements', 'OrderNowController@meas');
 

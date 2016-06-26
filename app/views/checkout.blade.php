@@ -29,18 +29,8 @@
                   <input id ="email" type="text" class="validate">
                   <label for="email">Enter your email address</label>
                 </div>
-                <form action = "#" style="margin-left:20px;">
-                  <p>
-                      <input class="with-gap" name="member" type="radio" id="guest" checked = "checked"/>
-                        <label for="guest">Continue without password</label>
-                    </p>
-                    <p>
-                        <input class="with-gap" name="member" type="radio" id="member"  />
-                        <label for="member">I already have an account</label>
-                    </p>
-                </form>
                 <div class="input-field">
-                  <input disabled id ="password" type="text" class="validate">
+                  <input id ="password" type="text" class="validate">
                   <label for="password">Password</label>
                 </div>
                 <p class="right-align blue-text">Lost your password?</p>
@@ -184,27 +174,53 @@
                 </p>
               </div>
               <div class="divider"></div>
-              <div class="row" style="margin-top:10px; margin-bottom:10px;">
+              <div class="row" style="margin-top:10px;">
                 <h6 class="col s6 blue-text"><b>Estimated Delivery</b></h6>
                   <p class = "col s6 input-field" style="margin-top:-1px;">
                     <b><input class="center" id = "deliverydate" value = "14 Mar - 15 Mar" name = "deliverydate" type = "text" readonly></b>
                   </p>
               </div>
-              <div class="divider"></div>
-              <div class="row" style="margin-top:10px; margin-bottom:10px;">
-                <p class="col s6 red-text darken-1"><font size="+1"><b>TOTAL</b></font></p>
-                <p class = "col s6 input-field" style="margin-top:-0px;">
-                  <b><input class="center red-text darken-1" id = "total" value = "P 4,100.00" name = "total" type = "text" readonly></b>
-                </p>
-              </div>
-
             </div>
-
-            <div class="btn red darken-1 white-text container" style="width:100%; height:40px; margin-top:20px;" href="{{URL::to('/homepage')}}"><i class="mdi-action-lock"></i>PLACE YOUR ORDER</div>
-
           </div>
 
-        </div>    
+        </div>
+
+          <div class="row container">
+            <div class="col s12">
+
+              <div class="row" style="margin-top:70px;">
+                
+                <div class="col s12">
+                  <div class="col s4">
+                    <div class="divider grey"></div>
+                  </div>
+
+                  <div class="col s4" style="margin-top:-30px;">
+                    <center><span style="font-size:35px; color: #e53935; font-family:'Playfair Display','Times';">Total amount to pay</span></center>
+                  </div>
+
+                  <div class="col s4">
+                    <div class="divider grey"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="container" style="font-family:'Playfair Display','Times';""><center><h3><b>Php 4,100.00</b></h3></center></div>
+                <form action="#">
+                  <p class="center">
+                    <input type="checkbox" id="terms" />
+                    <label for="terms">I have read and accepted the terms and conditions. - <font color="#40c4ff">View our terms (popup) here.</font></label>
+                  </p>
+                </form>
+                <center><div class="btn red darken-1 white-text container" style="width:70%; height:40px; margin-top:20px;" href="{{URL::to('/homepage')}}"><i class="mdi-action-lock" style="margin-right:5px;"></i>PLACE YOUR ORDER</div></center>
+
+
+              </div>
+            </div>
+          </div>
+
+
       </div>
       <!--END OF PAYMENT TAB-->
 

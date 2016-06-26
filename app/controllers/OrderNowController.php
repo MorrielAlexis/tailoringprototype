@@ -16,5 +16,12 @@ class OrderNowController extends BaseController{
 	{
 		return View::make('customizeorder');
 	}
+
+	public function meas()
+	{
+		return View::make('measurements');
+	}
+
+
 	
 }

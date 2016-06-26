@@ -17,17 +17,17 @@
 			<div class="row">
 
 				<div class="col s4 center" style="padding:20px;">
-		            <img class = "responsive-img" src="imgUniform/uni2.jpg">
+		            <img style="border:1px solid grey" class = "responsive-img" src="imgUniform/male-uniform-pants-plain.jpg">
 	            	<div><a class="red darken-1 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 
 				<div class="col s4 center" style="padding:20px;">
-		            <img class = "responsive-img" src="imgUniform/uni4.jpg">
+		            <img style="border:1px solid grey" class = "responsive-img" src="imgUniform/male-uniform-shorts-plain.jpg">
 	            	<div><a class="red darken-1 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 
 				<div class="col s4 center" style="padding:20px;">
-		            <img class = "responsive-img" src="imgUniform/uni8.jpg">
+		            <img style="border:1px solid grey" class = "responsive-img" src="imgUniform/male-uniform-plain.jpg">
 	            	<div><a class="red darken-1 container" href="{{URL::to('/ordernow')}}" style="border:1px solid white; padding:10px;"><font color= "white">ADD TO CART </font><i style="font-size:17px;" class="white-text mdi-action-shopping-cart"></i></a></div>
 				</div>
 

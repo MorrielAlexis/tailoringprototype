@@ -3,310 +3,287 @@
 
 @section('content')
 
-<div class="section container" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
+<div class="section container white row" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
   
-  <center><h2 style="color:white; font-family:'Playfair Display','Times';">Customize your order</h2></center>
-  <div class="divider" style="margin-bottom:15px;"></div>
+  <div class="row" style="margin-top:40px;">
+    <div class="col s12">
+      <div class="col s4">
+        <div class="divider grey" style="margin-bottom:5px;"></div>
+        <div class="divider grey"></div>
+      </div>
 
+      <div class="col s4" style="margin-top:-30px;">
+        <center><span style="font-size:40px; color: #757575; font-family:'Playfair Display','Times';">Customize Order</span></center>
+      </div>
+
+      <div class="col s4">
+        <div class="divider grey" style="margin-bottom:5px;"></div>
+        <div class="divider grey"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col s12" style="margin-top:20px;">
+
+      <div class="col s6 container">
+        <center><img src="{{URL::to('imgUniform/male-uniform-plain.jpg')}}" style="height:350px; width:350px; border: 3px gray solid"></center>
+      </div>
+
+      <div class="col s6">
+
+        <div class="col s6" style="margin-bottom:30px">
+          <label>Choose your design:</label>
+          <div class="file-field input-field">
+            <a style="color:black" class="modal-trigger btn tooltipped btn-floating teal" data-position="bottom" data-delay="50" data-tooltip="Click to choose a segment pattern" href="#editDesign"><i class="mdi-editor-mode-edit"></i></a>
+          </div>
+        </div>
+  
+        <div class="col s6" style="margin-bottom:30px">
+          <label>Choose your fabric:</label>
+          <div class="file-field input-field">  
+            <a style="color:black" class="modal-trigger btn tooltipped btn-floating teal" data-position="bottom" data-delay="50" data-tooltip="Click to choose a fabric" href="#editFabric"><i class="mdi-editor-mode-edit"></i></a>
+          </div>
+        </div>
+
+        <!--Garment Description Here-->
+        <div class="col s12" style="margin-top:10px; color:gray"><p>Garment description below:</p></div>
+          <div class="col s12" style="margin-left:130px">
+            <div class="col s4" style="color:teal;"><p><b>Garment Category:</b></p></div>
+            <div class="col s8"><p>Uniform</p></div>
+
+            <div class="col s4" style="color:teal;"><p><b>Garment Segment:</b></p></div>
+            <div class="col s8"><p>Polo</p></div>
+
+            <div class="col s4" style="color:teal;"><p><b>Price starts from:</b></p></div>
+            <div class="col s8" style="color:red"><p>800.00 PHP</p></div>
+          </div>
+
+      </div>
+
+  </div>
+
+    <div class="col s12">
+      
+      <div class="divider" style="margin-bottom:20px; margin-top:40px;"></div>
+
+      <a class="waves-effect waves-green btn-flat white-text" style="background-color:teal; margin-right:30px" href="#!">CANCEL</a>
+      <a class="right waves-effect waves-green btn-flat white-text" href="{{URL::to('/ordernow')}}" style="background-color:teal">SAVE</a>
+    </div>
+
+           
 </div>
 
-<div class="section transparent container" style="padding:20px; width:95%; margin-top:20px; margin-bottom:20px;">
 
-  <ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-     <div class="collapsible-header" style="padding-top:20px;">
-        <div class="row">
-          <div class="col s4">
-            <div style="width:200px; height:150; margin-left:50px;"><img class="responsive-img" href="#!" src="img/segmentpattern.jpg"></div>
-          </div>
-          <div class="col s8">
-            <div class="container">
-              <h4>Segment</h4>
-              <p>Choose a segment pattern for your garment..</p>
-              <i style="color:teal accent-5; font-size:50px;" class="right mdi-hardware-keyboard-arrow-down container"></i>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="collapsible-body white" style="padding:10px;">
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/bootcut-jeans.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/cargo.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/casual.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/chinos.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/cropped_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/flat_front.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/gauchos_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/leggings_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/palazzo_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/pencil_cut.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/pleated_pant.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/relaxed-cut-jeans.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/skinny-jeans-men.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/slim-cut.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/slim-fit.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/straight-cut-jeans.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/trouser_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSegmentPatterns/yoga_ladies.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li style="margin-top:20px;">
-     <div class="collapsible-header" style="padding-top:20px;">
-        <div class="row">
-          <div class="col s4">
-            <div style="width:200px; height:150; margin-left:50px;"><img class="responsive-img" href="#!" src="img/fabrictype.jpg"></div>
-          </div>
-          <div class="col s8">
-            <div class="container">
-              <h4>Fabrics</h4>
-              <p>Choose a fabric type for your garment..</p>
-              <i style="color:teal accent-5; font-size:50px;" class="right mdi-hardware-keyboard-arrow-down container"></i>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="collapsible-body white" style="padding:10px;">
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-      </div>
-    </li>
-    <li style="margin-top:20px;">
-      <div class="collapsible-header" style="padding-top:20px;">
-        <div class="row">
-          <div class="col s4">
-            <div style="width:200px; height:150; margin-left:50px;"><img class="responsive-img" href="#!" src="img/swatchtype.jpg"></div>
-          </div>
-          <div class="col s8">
-            <div class="container">
-              <h4>Swatches</h4>
-              <p>Choose a swatch for your garment..</p>
-              <i style="color:teal accent-5; font-size:50px;" class="right mdi-hardware-keyboard-arrow-down container"></i>
-          </div>
-          </div>
-        </div>
-      </div>
-      <div class="collapsible-body white" style="padding:10px;">
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-alpine.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-bay.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-berry.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-cinder.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-cordovan.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ebony-cinder.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ebony.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-forest.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-gemstone.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-grape.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-hopscotch.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-maroon.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-nickel.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-oxford.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-parchment.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-pewter.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-putty.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-ruby.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-scarlet.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-taupe.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-twilight.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-wallnut.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-          <div class="col s2">
-            <img class="responsive-img" style="height:150px;" src="imgSwatches/citadel-yale.jpg">
-            <div class="btn red darken-1 white-text container" style="width:95%;" href="#!">PICK ME!</div>
-          </div>
-        </div>
-      </div>
-    </li>
+  <!--MODAL FOR design-->
+  <div id="editDesign" class="modal modal-fixed-footer">
     
-  </ul>
+    <div class="modal-content row">
 
-</div>
+    <h5><font color = "#1b5e20"><center>List of Available Designs</center> </font> </h5>
+    <div class="divider" style="height:2px; margin-bottom:40px;"></div>
+
+      <div class="input-field row">
+        <div class="col s1"><i class="small mdi-action-search"></i></div>
+        <div class="col s11">
+          <input id="search" type="search" placeholder="Search for any available designs (ex. slim-fit, etc..)">
+          <label for="search"></label>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern1" />
+          <label for="pattern1"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img">
+              </div>
+              <div class="col s7"> 
+                <p>STRAIGHT-CUT</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern2" />
+          <label for="pattern2"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s7">
+                <p>SPECIAL PATTERN</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern3" />
+          <label for="pattern3"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s7">
+                <p>JUST ANOTHER PATTERN</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="right waves-effect waves-green btn-flat">OK</a>
+      <a href="#!" class="right modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+    </div>
+  </div>
+
+  <!--MODAL FOR fabric-->
+  <div id="editFabric" class="modal modal-fixed-footer">
+   
+    <div class="modal-content row">
+
+    <h5><font color = "#1b5e20"><center>List of Available Fabrics</center> </font> </h5>
+    <div class="divider" style="height:2px; margin-bottom:40px;"></div>
+
+      <div class="input-field row">
+        <div class="col s1"><i class="small mdi-action-search"></i></div>
+        <div class="col s11">
+          <input id="search" type="search" placeholder="Search for any available fabrics (ex. cotton, etc..)">
+          <label for="search"></label>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern1" />
+          <label for="pattern1"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img">
+              </div>
+              <div class="col s7"> 
+                <p>COTTON CHENES</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern2" />
+          <label for="pattern2"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s7">
+                <p>REGULAR COTTON</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12">
+        <div class="col s1" style="margin-top:60px">
+          <input name="garmentDesigns" type="radio" class="filled-in" id="pattern3" />
+          <label for="pattern3"></label>
+        </div>
+        <div class="col s11">
+          <div class="card-panel grey lighten-5 z-depth-1">
+            <div class="row valign-wrapper">
+              <div class="col s4">
+                <img src="#!" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+              </div>
+              <div class="col s7">
+                <p>REMARKABLE COTTON</p>
+                <span class="black-text">
+                  This is a square image. Add the "circle" class to it to make it appear circular.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="right waves-effect waves-green btn-flat">OK</a>
+      <a href="#!" class="right modal-action modal-close waves-effect waves-green btn-flat">Cancel</a>
+    </div>
+  </div>
 
 @stop
 
-@section('scripts') 
+
+@section('scripts')
+
   <script>
-
+    $('.modal-trigger').leanModal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        opacity: .5, // Opacity of modal background
+        in_duration: 300, // Transition in duration
+        out_duration: 200, // Transition out duration
+        width:400,
+      }
+    );
   </script>
+
+  <script>
+    $(document).ready(function() {
+      $('select').material_select();
+    });
+  </script>         
+
+  <script>
+   $(document).ready(function(){
+    $('.tooltipped').tooltip({delay: 50});
+   });
+  </script>
+
 @stop
-  

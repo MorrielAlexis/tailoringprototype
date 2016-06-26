@@ -79,9 +79,10 @@
                 <li>
                   <a style="color: white; padding-left:15px; padding-right:15px; margin:0px;" class="dropdown-button btn-flat" data-beloworigin="true" href="#" data-activates="downdown"><b>GARMENTS</b></a>
                   <ul id="downdown" class="dropdown-content">
-                    <li><a href="{{URL::to('/garmentUniform')}}">UNIFORMS</a></li>
-                    <li><a href="{{URL::to('/garmentGown')}}">GOWNS</a></li>
                     <li><a href="{{URL::to('/garmentSuit')}}">SUITS</a></li>
+                    <li><a href="{{URL::to('/garmentGown')}}">GOWNS</a></li>
+                    <li><a href="{{URL::to('/garmentUniformMale')}}">UNIFORMS for MALE</a></li>
+                    <li><a href="{{URL::to('/garmentUniformFemale')}}">UNIFORMS for FEMALE</a></li>
                   </ul>
                 </li>
                 <li><div class="divider" style="margin-top:20px; width:1px; height:25px;"></div></li>
@@ -303,10 +304,10 @@
 
       $(document).ready(function(){
         $('.dropdown-button').dropdown({
-          inDuration: 300,
-          outDuration: 225,
+          inDuration: 500,
+          outDuration: 300,
           constrain_width: false, // Does not change width of dropdown to that of the activator
-          hover: false, // Activate on hover
+          hover: true, // Activate on hover
           gutter: 0, // Spacing from edge
           belowOrigin: false, // Displays dropdown below the button
           alignment: 'left' // Displays dropdown with edge aligned to the left of button
